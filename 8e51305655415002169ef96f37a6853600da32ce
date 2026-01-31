@@ -1,0 +1,91 @@
+app/Filament/Resources/Applications/Pages/ViewApplication.php
+  429865cb9b785529 1-6,8-34,36-77
+app/Filament/Widgets/TopCompaniesWidget.php
+  429865cb9b785529 1-46
+app/Filament/Widgets/UsersByRoleChart.php
+  429865cb9b785529 1-62
+app/Filament/Widgets/StatsOverview.php
+  429865cb9b785529 5-9,19-39,41-48,50,52-66,68-72
+app/Filament/Resources/Profiles/Pages/ViewProfile.php
+  429865cb9b785529 1-62
+app/Filament/Resources/Users/RelationManagers/JobListingsRelationManager.php
+  429865cb9b785529 1-65
+app/Filament/Resources/Applications/Schemas/ApplicationForm.php
+  429865cb9b785529 1-4,6-31,33-121,123-188
+app/Filament/Resources/Profiles/RelationManagers/WorkExperiencesRelationManager.php
+  429865cb9b785529 1-47
+app/Filament/Resources/Users/Pages/ViewUser.php
+  429865cb9b785529 1-53
+app/Filament/Resources/Users/UserResource.php
+  429865cb9b785529 5,9-11,16-18,20-21,35-48,59-138,140-142,144-172,178-179,188
+resources/views/filament/pages/cv-database.blade.php
+  429865cb9b785529 1-26
+app/Filament/Resources/JobListings/RelationManagers/ApplicationsRelationManager.php
+  429865cb9b785529 1-8,10-91,94-156
+app/Filament/Resources/Companies/RelationManagers/JobListingsRelationManager.php
+  429865cb9b785529 1-62
+app/Filament/Widgets/UserGrowthChart.php
+  429865cb9b785529 1-66
+app/Filament/Resources/Applications/ApplicationResource.php
+  429865cb9b785529 1-66
+app/Filament/Widgets/ApplicationFunnel.php
+  429865cb9b785529 1-68
+app/Filament/Resources/Users/Tables/UsersTable.php
+  429865cb9b785529 5,10-12,14-16,18,26-30,34-35,39,42-46,51-65,67-71,77-111,114,123
+app/Filament/Resources/JobListings/Tables/JobListingsTable.php
+  429865cb9b785529 5-7,11-12,14-15,17-18,29-33,36-39,43-54,56-64,66-75,77,79-88,90-95,97-98,100-101,106,113-162,165,167-190,194-226
+app/Filament/Resources/Profiles/Tables/ProfilesTable.php
+  429865cb9b785529 1-54,56-71,73,75-190
+app/Filament/Resources/Applications/Tables/ApplicationsTable.php
+  429865cb9b785529 1-10,12-15,17-130,133-197
+app/Filament/Resources/Companies/Pages/ListCompanies.php
+  429865cb9b785529 1-8,10-49
+app/Filament/Resources/JobListings/JobListingResource.php
+  429865cb9b785529 8-9,14,16-17,31-32,35-43,55-140,142-173,175-193,199,208
+app/Filament/Resources/Applications/Pages/ListApplications.php
+  429865cb9b785529 1-7,9-52
+app/Filament/Resources/Users/RelationManagers/ApplicationsRelationManager.php
+  429865cb9b785529 1-6,8-74,77-97
+app/Filament/Resources/Companies/Pages/ViewCompany.php
+  429865cb9b785529 1-61
+app/Filament/Resources/Companies/CompanyResource.php
+  429865cb9b785529 7-11,18,25-27,37-39,41,52-65,255-281,284,292-412,414-457,461-466,472-474
+app/Filament/Resources/Profiles/RelationManagers/EducationRelationManager.php
+  429865cb9b785529 1-50
+app/Filament/Resources/Profiles/ProfileResource.php
+  429865cb9b785529 1-11,15-62,71-115,117-143,146-158,160,162-164,166,189-226,230,233-282
+app/Filament/Widgets/JobPerformanceChart.php
+  429865cb9b785529 1-76
+app/Filament/Resources/Companies/RelationManagers/UsersRelationManager.php
+  429865cb9b785529 1-61
+resources/views/filament/pages/analytics.blade.php
+  429865cb9b785529 1-218
+app/Filament/Resources/JobListings/Pages/ListJobListings.php
+  429865cb9b785529 6,10,22-56
+app/Filament/Resources/JobListings/Pages/ViewJobListing.php
+  429865cb9b785529 1-73
+app/Filament/Resources/Companies/Pages/EditCompany.php
+  429865cb9b785529 1-21
+app/Filament/Resources/Profiles/Pages/ListProfiles.php
+  429865cb9b785529 1-7,9-53
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.40",
+  "base_commit_sha": "8e51305655415002169ef96f37a6853600da32ce",
+  "prompts": {
+    "429865cb9b785529": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "936f2ddd-4848-45ee-9569-99fca4179f20",
+        "model": "claude-opus-4-5-20251101"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 3796,
+      "total_deletions": 90,
+      "accepted_lines": 3724,
+      "overriden_lines": 29
+    }
+  }
+}

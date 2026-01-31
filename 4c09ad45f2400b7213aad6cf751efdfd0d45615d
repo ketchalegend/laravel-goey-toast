@@ -1,0 +1,43 @@
+resources/views/layouts/auth/simple.blade.php
+  49e7423fd05428e3 6-19,21-59,71-74
+resources/views/pages/auth/two-factor-challenge.blade.php
+  49e7423fd05428e3 28-29,35-36,40-50,54,56,68,71,76-77,80,82,89,91,95-99,101-103
+.env.example
+  49e7423fd05428e3 50,54
+resources/views/pages/auth/register.blade.php
+  49e7423fd05428e3 3,5,7,9,19,29,49,59,63-72,75-81,83-86
+resources/views/pages/auth/reset-password.blade.php
+  49e7423fd05428e3 3,5,7,9,14-15,19,24,28,34,38,42,44,46-56
+resources/views/pages/auth/forgot-password.blade.php
+  49e7423fd05428e3 3,5,7,12,19-20,24-31
+resources/views/components/auth-header.blade.php
+  49e7423fd05428e3 6-8
+tests/Feature/Auth/RegistrationTest.php
+  49e7423fd05428e3 11-12
+resources/views/pages/auth/confirm-password.blade.php
+  49e7423fd05428e3 4-5,8-14,16-18,27,31
+resources/views/pages/auth/login.blade.php
+  49e7423fd05428e3 3,5,7,21-29,35,40,42-44,47-49,51-59
+resources/views/pages/auth/verify-email.blade.php
+  49e7423fd05428e3 3,5-11,13-15,18-22,25-26,28,33,35
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.40",
+  "base_commit_sha": "4c09ad45f2400b7213aad6cf751efdfd0d45615d",
+  "prompts": {
+    "49e7423fd05428e3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "3e916d68-f980-48d6-9fc5-22e25f08deec",
+        "model": "claude-opus-4-5-20251101"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 243,
+      "total_deletions": 140,
+      "accepted_lines": 230,
+      "overriden_lines": 4
+    }
+  }
+}

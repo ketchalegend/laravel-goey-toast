@@ -1,0 +1,23 @@
+docs/plans/2025-02-01-event-management-design.md
+  38a042e24c087ddd 1-2366
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.40",
+  "base_commit_sha": "7ecc9d16472a6156e5c322dc06ed8196a7fdc432",
+  "prompts": {
+    "38a042e24c087ddd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "078beb7a-1815-47c6-aebe-6620c109f705",
+        "model": "claude-opus-4-5-20251101"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 2366,
+      "total_deletions": 0,
+      "accepted_lines": 2366,
+      "overriden_lines": 0
+    }
+  }
+}

@@ -1,0 +1,63 @@
+app/Enums/EventRegistrationType.php
+  38a042e24c087ddd 1-38
+database/migrations/2026_02_01_103448_create_events_table.php
+  38a042e24c087ddd 13-75,77-81
+app/Enums/EventCategory.php
+  38a042e24c087ddd 1-8,10-61
+database/migrations/2026_02_01_103547_create_event_invites_table.php
+  38a042e24c087ddd 13-25,27-29
+app/Models/EventSession.php
+  38a042e24c087ddd 1-80
+app/Enums/EventStatus.php
+  38a042e24c087ddd 1-8,10-59
+app/Models/EventRegistration.php
+  38a042e24c087ddd 1-137
+app/Enums/EventRegistrationStatus.php
+  38a042e24c087ddd 1-8,10-50
+database/migrations/2026_02_01_103529_create_event_registrations_table.php
+  38a042e24c087ddd 13-32,34-38
+app/Models/EventView.php
+  38a042e24c087ddd 1-52
+app/Enums/EventVisibility.php
+  38a042e24c087ddd 1-7,9-31
+app/Enums/EventType.php
+  38a042e24c087ddd 1-21
+app/Enums/EventVenueType.php
+  38a042e24c087ddd 1-8,10-51
+database/migrations/2026_02_01_103507_create_event_sessions_table.php
+  38a042e24c087ddd 13-36,38-39
+database/migrations/2026_02_01_103547_create_event_views_table.php
+  38a042e24c087ddd 13-26
+database/migrations/2026_02_01_103547_create_event_shares_table.php
+  38a042e24c087ddd 13-20
+app/Models/User.php
+  38a042e24c087ddd 130-144,194-202,215
+app/Models/EventInvite.php
+  38a042e24c087ddd 1-100
+app/Models/EventShare.php
+  38a042e24c087ddd 1-47
+app/Models/Event.php
+  38a042e24c087ddd 1-325
+app/Models/Company.php
+  38a042e24c087ddd 72-76
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.40",
+  "base_commit_sha": "3ac23e49912a432abccc5e713385ca0859df1e11",
+  "prompts": {
+    "38a042e24c087ddd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "078beb7a-1815-47c6-aebe-6620c109f705",
+        "model": "claude-opus-4-5-20251101"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 1239,
+      "total_deletions": 38,
+      "accepted_lines": 1234,
+      "overriden_lines": 5
+    }
+  }
+}

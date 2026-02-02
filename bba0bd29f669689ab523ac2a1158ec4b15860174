@@ -1,0 +1,39 @@
+resources/views/livewire/applicant/dashboard.blade.php
+  ca650d77f1de9a33 15-17,20-25,29-30,66-67,69,75,89,247-248,251
+resources/views/livewire/settings/notification-preferences.blade.php
+  ca650d77f1de9a33 75-76,80-81
+tests/Feature/Livewire/Applicant/DashboardTest.php
+  ca650d77f1de9a33 21,36,42,59-155
+config/skills.php
+  ca650d77f1de9a33 1-31
+app/Livewire/Applicant/Dashboard.php
+  ca650d77f1de9a33 8,33-34,63-66,74-88,180-186,190,192-195,204,214,220-223,243-246
+app/Models/Company.php
+  ca650d77f1de9a33 51
+tests/Feature/Livewire/Employer/DashboardTest.php
+  ca650d77f1de9a33 3-4,6,9-64
+.gitignore
+  ca650d77f1de9a33 54-56
+resources/views/livewire/employer/dashboard.blade.php
+  ca650d77f1de9a33 12-14,17-22,26-27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.42",
+  "base_commit_sha": "bba0bd29f669689ab523ac2a1158ec4b15860174",
+  "prompts": {
+    "ca650d77f1de9a33": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "376373ce-9d50-4c06-88ff-4cd73ccae4b9",
+        "model": "claude-opus-4-5-20251101"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 326,
+      "total_deletions": 141,
+      "accepted_lines": 274,
+      "overriden_lines": 1
+    }
+  }
+}

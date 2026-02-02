@@ -1,0 +1,135 @@
+app/Services/EventAnalyticsService.php
+  fe1f44f0962315e8 5-10,13-74,76-156
+app/Notifications/WaitlistPromoted.php
+  fe1f44f0962315e8 5,11,15,24-29,31-37
+database/migrations/2026_02_01_184913_add_notification_flags_to_event_registrations_table.php
+  fe1f44f0962315e8 12-13,20
+app/Jobs/ProcessRecurringEvents.php
+  fe1f44f0962315e8 5-8,10-13,17-19,21-28,31-90,92-101
+routes/console.php
+  fe1f44f0962315e8 16-24
+app/Models/Company.php
+  fe1f44f0962315e8 36-37,49,80-137
+app/Filament/Resources/EmployerSubscriptions/Schemas/EmployerSubscriptionForm.php
+  fe1f44f0962315e8 5-9,11,14-18,20-21,29-110,112-258,261-308
+app/Http/Responses/LoginResponse.php
+  fe1f44f0962315e8 6,16-18,20-28
+app/Filament/Resources/EmployerSubscriptions/EmployerSubscriptionResource.php
+  fe1f44f0962315e8 21-27
+app/Livewire/Event/Show.php
+  fe1f44f0962315e8 107,110,116-185
+app/Notifications/EventUpdated.php
+  fe1f44f0962315e8 5,11,16-17,27-30,32-49
+app/Livewire/Event/InviteResponse.php
+  fe1f44f0962315e8 1-121
+database/migrations/2026_02_01_191447_create_employer_subscriptions_table.php
+  fe1f44f0962315e8 16-27
+app/Jobs/SendEventReminders.php
+  fe1f44f0962315e8 5-9,11-13,17-19,21-22,25,27-44
+config/services.php
+  fe1f44f0962315e8 43-48
+app/Filament/Resources/EmployerSubscriptions/Pages/CreateEmployerSubscription.php
+  fe1f44f0962315e8 5,7-11,13-15,20-118
+app/Models/EventRegistration.php
+  fe1f44f0962315e8 32-33,45-46,141-154
+app/Enums/EventRegistrationStatus.php
+  fe1f44f0962315e8 11,20,31,42,54-57
+resources/views/livewire/employer/subscription/pay.blade.php
+  fe1f44f0962315e8 1-125
+app/Filament/Resources/EmployerSubscriptions/Tables/EmployerSubscriptionsTable.php
+  fe1f44f0962315e8 5-7,11,13,25-27,29-38,40,43,46,49-50,54,56-62,65-102
+app/Filament/Resources/EmployerPackages/EmployerPackageResource.php
+  fe1f44f0962315e8 21-25
+database/factories/EventFactory.php
+  fe1f44f0962315e8 49,52-53,120-186,188-209,211-273
+app/Notifications/EventReminder.php
+  fe1f44f0962315e8 5,11,16-17,27-32,34-54
+app/Livewire/Event/PaymentSuccess.php
+  fe1f44f0962315e8 1-39
+resources/views/livewire/employer/subscription/success.blade.php
+  fe1f44f0962315e8 1-99
+app/Filament/Resources/EmployerSubscriptions/Pages/EditEmployerSubscription.php
+  fe1f44f0962315e8 6,9,14-18
+app/Jobs/SendEventFollowUps.php
+  fe1f44f0962315e8 5-8,10-14,18-20,22-42,45,47-66
+app/Models/EmployerSubscription.php
+  fe1f44f0962315e8 5,7-8,12-130
+app/Livewire/Employer/Subscription/Success.php
+  fe1f44f0962315e8 1-37
+app/Models/EmployerPackage.php
+  fe1f44f0962315e8 5,7,11-76
+app/Notifications/EventWaitlisted.php
+  fe1f44f0962315e8 5,15,24-25,27,29,31
+app/Http/Responses/RegisterResponse.php
+  fe1f44f0962315e8 1-17,19-30
+app/Providers/FortifyServiceProvider.php
+  fe1f44f0962315e8 8,15,23
+app/Models/User.php
+  fe1f44f0962315e8 14,20
+database/migrations/2026_02_01_191431_create_employer_packages_table.php
+  fe1f44f0962315e8 16-31
+app/Http/Controllers/Webhook/StripeWebhookController.php
+  fe1f44f0962315e8 6-7,9-11,15-230
+app/Livewire/Employer/Subscription/Pay.php
+  fe1f44f0962315e8 1-141
+app/Notifications/EventCancelled.php
+  fe1f44f0962315e8 5,11,15,25-34
+app/Filament/Resources/EmployerPackages/Schemas/EmployerPackageForm.php
+  fe1f44f0962315e8 5-6,10,12,20-22,24-27,29-31,33-39,43-61,63-73,75-76,78-84,86,88,90-101,103-104,107-109
+database/migrations/2026_02_01_191501_add_activation_fields_to_companies_table.php
+  fe1f44f0962315e8 15-16,23
+app/Filament/Resources/EmployerPackages/Tables/EmployerPackagesTable.php
+  fe1f44f0962315e8 10-11,22,24,27-32,34-36,38-40,42,45,48,50-53,58-59,61-68
+app/Notifications/EmployerPackageAssigned.php
+  fe1f44f0962315e8 5,11,16,21,26-28,30-42,48-52
+resources/views/livewire/event/invite-response.blade.php
+  fe1f44f0962315e8 1-172
+app/Filament/Resources/Events/EventResource.php
+  38a042e24c087ddd 5,9-12,30,33-35,41-57,76-78,87
+resources/views/livewire/event/payment-success.blade.php
+  fe1f44f0962315e8 1-113
+app/Filament/Resources/Events/Schemas/EventForm.php
+  fe1f44f0962315e8 81,102,114,120,126,132,148,160,164,167,173,177,189,225-244
+  38a042e24c087ddd 11-12,15,21-22,24,31,33-34,36-39,41-43,45-49,53-56,59-63,66-71,73-80,82-101,103-113,115-119,121-125,127-131,133-136,138-147,149-159,161-163,165-166,168-172,174-176,178-188,190-215,217-223
+app/Notifications/EventRegistered.php
+  fe1f44f0962315e8 5,15,24-25,27,29-36,38-43,47
+routes/web.php
+  fe1f44f0962315e8 29,87-88,91,97-103
+database/seeders/DatabaseSeeder.php
+  fe1f44f0962315e8 7-9,17-25,28-29,31,33,59-60,62-70,72-79,81-100,103-173
+bootstrap/app.php
+  fe1f44f0962315e8 23-25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.42",
+  "base_commit_sha": "1d3bb695088c0eb80275cdceef24d18904b5236f",
+  "prompts": {
+    "38a042e24c087ddd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "078beb7a-1815-47c6-aebe-6620c109f705",
+        "model": "claude-opus-4-5-20251101"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 228,
+      "total_deletions": 103,
+      "accepted_lines": 202,
+      "overriden_lines": 1
+    },
+    "fe1f44f0962315e8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "29d7463a-3e4f-468a-97d1-d8772398e4aa",
+        "model": "claude-opus-4-5-20251101"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 2987,
+      "total_deletions": 419,
+      "accepted_lines": 2904,
+      "overriden_lines": 6
+    }
+  }
+}

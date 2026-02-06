@@ -1,0 +1,39 @@
+resources/views/livewire/public/companies/index-page.blade.php
+  d5ff13fc63512c7d 26,47,50
+resources/views/livewire/public/companies/show-page.blade.php
+  d5ff13fc63512c7d 2,6-7,15-16,20-21,25,35-37,39,43-45,49,51-52,54,56-58,60,63,71,74-75,78-79,82-83,89,93-95,98
+resources/views/public/partials/partner-logos.blade.php
+  d5ff13fc63512c7d 7-10,13,15-16
+resources/css/app.css
+  d5ff13fc63512c7d 12-13,15-27,79-141,143-156,158-160
+resources/views/livewire/public/about-page.blade.php
+  d5ff13fc63512c7d 3-6,8-10,14,17,19-21,26-28
+resources/views/layouts/public.blade.php
+  d5ff13fc63512c7d 6,8,20-48
+resources/views/livewire/public/home-page.blade.php
+  d5ff13fc63512c7d 442
+resources/views/livewire/public/blog/index-page.blade.php
+  d5ff13fc63512c7d 19,22
+resources/views/livewire/public/blog/show-page.blade.php
+  d5ff13fc63512c7d 2,6,8-11,16,25-27,29-32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.42",
+  "base_commit_sha": "f42111deeb716e57dd0cabf9a4de14a70582f9f5",
+  "prompts": {
+    "d5ff13fc63512c7d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f4b15e40-7754-49ee-99f2-f87248394c4a",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 437,
+      "total_deletions": 300,
+      "accepted_lines": 207,
+      "overriden_lines": 29
+    }
+  }
+}

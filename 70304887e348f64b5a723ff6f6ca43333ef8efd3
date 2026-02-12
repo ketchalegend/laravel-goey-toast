@@ -1,0 +1,31 @@
+tests/Feature/Public/ContentEditorTest.php
+  f76d1e10bf112f98 116-129,218-236
+app/Livewire/Public/Jobs/IndexPage.php
+  f76d1e10bf112f98 363,370-372
+resources/views/livewire/public/jobs/show-page.blade.php
+  f76d1e10bf112f98 75,129,133,144,153,162,171,211,217,221,235,248,254,274
+resources/views/livewire/public/jobs/index-page.blade.php
+  f76d1e10bf112f98 16,18-20,39-40,43-44,47-48,60,62,66,88,91-95,102-106,110-114,125,134,138,145,203,218,220-224,304,312,320,327,335,344-345,349,359-360,364
+tests/Feature/Public/PublicSiteTest.php
+  f76d1e10bf112f98 295-306
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.2",
+  "base_commit_sha": "70304887e348f64b5a723ff6f6ca43333ef8efd3",
+  "prompts": {
+    "f76d1e10bf112f98": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019c50dd-a972-7f50-9d56-7938f08d2d9b",
+        "model": "unknown"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 120,
+      "total_deletions": 49,
+      "accepted_lines": 119,
+      "overriden_lines": 0
+    }
+  }
+}

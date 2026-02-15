@@ -1,0 +1,23 @@
+database/factories/EmployerPackageFactory.php
+  ddecd694f97197d6 23-24,27,29-30,33-38,40-41,45,49-54
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.3",
+  "base_commit_sha": "3670381e67fd9419f7cfc909d5a10ad95a3fc6ee",
+  "prompts": {
+    "ddecd694f97197d6": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019c5df9-c529-7a62-ba0b-23cb21a8457f",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 22,
+      "total_deletions": 14,
+      "accepted_lines": 22,
+      "overriden_lines": 0
+    }
+  }
+}

@@ -1,0 +1,25 @@
+routes/web.php
+  9c495f3ff48f9879 152
+tests/Feature/ErgRoleAccessTest.php
+  9c495f3ff48f9879 60-69
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "0707ab23eb6f607be0e17c91e9744278af234654",
+  "prompts": {
+    "9c495f3ff48f9879": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019c7d05-1d93-7ed2-8270-c6b774f4f70a",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 11,
+      "total_deletions": 1,
+      "accepted_lines": 11,
+      "overriden_lines": 0
+    }
+  }
+}

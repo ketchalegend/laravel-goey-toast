@@ -1,0 +1,33 @@
+{
+    "name": "ketchalegend/laravel-goey-toast",
+    "description": "Gooey animated toast notifications for Laravel and Livewire",
+    "type": "library",
+    "version": "0.1.0",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "illuminate/contracts": "^11.0|^12.0",
+        "illuminate/support": "^11.0|^12.0",
+        "spatie/laravel-package-tools": "^1.20"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "Ketchalegend\\LaravelGoeyToast\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ketchalegend\\LaravelGoeyToast\\GoeyToastServiceProvider"
+            ],
+            "aliases": {
+                "GoeyToast": "Ketchalegend\\LaravelGoeyToast\\Facades\\GoeyToast"
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

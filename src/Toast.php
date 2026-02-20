@@ -20,6 +20,8 @@ final readonly class Toast
         public ?bool $spring,
         public int $duration,
         public bool $dismissible,
+        public int $count = 1,
+        public int $createdAtMs = 0,
         public array $meta = [],
     ) {}
 
@@ -34,6 +36,8 @@ final readonly class Toast
      *     spring: ?bool,
      *     duration: int,
      *     dismissible: bool,
+     *     count: int,
+     *     createdAtMs: int,
      *     meta: array<string, mixed>
      * }
      */
@@ -49,6 +53,8 @@ final readonly class Toast
             'spring' => $this->spring,
             'duration' => $this->duration,
             'dismissible' => $this->dismissible,
+            'count' => $this->count,
+            'createdAtMs' => $this->createdAtMs,
             'meta' => $this->meta,
         ];
     }

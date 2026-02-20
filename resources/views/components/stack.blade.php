@@ -18,8 +18,11 @@
         initialToasts: @js($toasts),
         maxVisible: @js($maxVisible),
         animation: @js($animation),
+        dedupe: @js($dedupe),
     })"
-    x-on:goey-toast.window="push($event.detail)"
+    x-on:goey-toast.window="push(window.normalizeGoeyToastDetail($event.detail))"
+    x-on:goey-toast-dismiss.window="const detail = window.normalizeGoeyToastDetail($event.detail); if (detail?.id) { remove(detail.id) }"
+    x-on:goey-toast-update.window="const detail = window.normalizeGoeyToastDetail($event.detail); if (detail?.id) { update(detail.id, detail) }"
     style="position: fixed; {{ $stackStyle }} z-index: {{ $zIndex }}; width: min(360px, calc(100vw - 2rem)); pointer-events: none;"
 >
     <svg style="position: absolute; width: 0; height: 0;">
@@ -44,13 +47,15 @@
                 x-transition:leave="goey-toast-leave"
                 x-transition:leave-start="goey-toast-leave-start"
                 x-transition:leave-end="goey-toast-leave-end"
-                role="status"
-                aria-live="polite"
+                x-bind:role="toast.type === 'danger' ? 'alert' : 'status'"
+                x-bind:aria-live="toast.type === 'danger' ? 'assertive' : 'polite'"
+                aria-atomic="true"
                 style="pointer-events: auto;"
             >
                 <p class="goey-toast__title" x-show="toast.title" x-text="toast.title"></p>
                 <p class="goey-toast__message" x-text="toast.message"></p>
                 <p class="goey-toast__description" x-show="toast.description" x-text="toast.description"></p>
+                <span class="goey-toast__count" x-show="toast.count > 1" x-text="`×${toast.count}`"></span>
                 <button
                     x-show="toast.dismissible"
                     type="button"
@@ -116,6 +121,20 @@
         font-size: 0.78rem;
         font-weight: 700;
         cursor: pointer;
+    }
+
+    .goey-toast__count {
+        position: absolute;
+        top: 0.55rem;
+        right: 2rem;
+        background: rgba(0, 0, 0, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 999px;
+        padding: 0.1rem 0.45rem;
+        font-size: 0.68rem;
+        font-weight: 700;
+        line-height: 1;
+        color: rgba(255, 255, 255, 0.95);
     }
 
     .goey-toast--success {
@@ -208,6 +227,23 @@
             transform: scaleX(0);
         }
     }
+
+    @media (prefers-reduced-motion: reduce) {
+        .goey-toast-enter,
+        .goey-toast-leave,
+        .goey-toast-enter-start,
+        .goey-toast-enter-end,
+        .goey-toast-leave-start,
+        .goey-toast-leave-end {
+            transition-duration: 0ms !important;
+            animation: none !important;
+            transform: none !important;
+        }
+
+        .goey-toast__timer {
+            animation: none !important;
+        }
+    }
 </style>
 
 <script>
@@ -239,6 +275,8 @@
                 queue: [],
                 maxVisible: Number(config.maxVisible ?? 4),
                 animation: config.animation ?? {},
+                dedupe: config.dedupe ?? { enabled: true, windowMs: 3000 },
+                removeTimeouts: {},
 
                 init() {
                     this.applyAnimationVars();
@@ -275,6 +313,18 @@
                         return;
                     }
 
+                    const dedupeKey = this.getDedupeKey(detail);
+                    const duplicateIndex = this.findDuplicateIndex(dedupeKey);
+
+                    if (duplicateIndex !== -1) {
+                        const existingToast = this.queue[duplicateIndex];
+                        existingToast.count = Number(existingToast.count ?? 1) + 1;
+                        existingToast.createdAtMs = Date.now();
+                        existingToast.visible = true;
+                        this.scheduleRemoval(existingToast.id, Number(existingToast.duration ?? 4500));
+                        return existingToast.id;
+                    }
+
                     const toast = {
                         id: detail.id ?? `goey-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
                         type: detail.type ?? 'info',
@@ -285,14 +335,94 @@
                         duration: Number(detail.duration ?? 4500),
                         dismissible: detail.dismissible ?? true,
                         spring: detail.spring ?? Boolean(this.animation.springEnabled ?? true),
+                        count: Number(detail.count ?? 1),
+                        createdAtMs: Number(detail.createdAtMs ?? Date.now()),
+                        dedupeKey,
                         visible: true,
                     };
 
                     this.queue.unshift(toast);
+                    this.scheduleRemoval(toast.id, toast.duration);
+                    return toast.id;
+                },
 
-                    window.setTimeout(() => {
-                        this.remove(toast.id);
-                    }, toast.duration);
+                findDuplicateIndex(dedupeKey) {
+                    if (!this.dedupe?.enabled || typeof dedupeKey !== 'string') {
+                        return -1;
+                    }
+
+                    const now = Date.now();
+                    const windowMs = Number(this.dedupe.windowMs ?? 3000);
+
+                    return this.queue.findIndex((toast) => {
+                        if (toast?.dedupeKey !== dedupeKey) {
+                            return false;
+                        }
+
+                        const createdAtMs = Number(toast.createdAtMs ?? 0);
+
+                        if (windowMs <= 0 || createdAtMs === 0) {
+                            return true;
+                        }
+
+                        return (now - createdAtMs) <= windowMs;
+                    });
+                },
+
+                getDedupeKey(detail) {
+                    const action = detail?.action && typeof detail.action === 'object' ? detail.action : {};
+
+                    return JSON.stringify([
+                        detail?.type ?? 'info',
+                        detail?.title ?? null,
+                        detail?.message ?? '',
+                        detail?.description ?? null,
+                        detail?.duration ?? 4500,
+                        detail?.dismissible ?? true,
+                        action?.label ?? null,
+                        action?.href ?? null,
+                        action?.event ?? null,
+                    ]);
+                },
+
+                scheduleRemoval(id, duration) {
+                    const parsedDuration = Number(duration ?? 4500);
+
+                    if (this.removeTimeouts[id]) {
+                        window.clearTimeout(this.removeTimeouts[id]);
+                    }
+
+                    if (parsedDuration <= 0) {
+                        return;
+                    }
+
+                    this.removeTimeouts[id] = window.setTimeout(() => {
+                        this.remove(id);
+                    }, parsedDuration);
+                },
+
+                update(id, attributes = {}) {
+                    const index = this.queue.findIndex((toast) => toast.id === id);
+
+                    if (index === -1) {
+                        return false;
+                    }
+
+                    const toast = this.queue[index];
+                    const updatedToast = {
+                        ...toast,
+                        ...attributes,
+                        id: toast.id,
+                        visible: true,
+                        count: Number(attributes.count ?? toast.count ?? 1),
+                        createdAtMs: Number(attributes.createdAtMs ?? Date.now()),
+                        dedupeKey: this.getDedupeKey({ ...toast, ...attributes }),
+                    };
+
+                    this.queue.splice(index, 1, updatedToast);
+                    this.scheduleRemoval(updatedToast.id, Number(updatedToast.duration ?? 4500));
+
+                    return true;
                 },
 
                 handleAction(toast) {
@@ -324,6 +454,11 @@
                         return;
                     }
 
+                    if (this.removeTimeouts[id]) {
+                        window.clearTimeout(this.removeTimeouts[id]);
+                        delete this.removeTimeouts[id];
+                    }
+
                     this.queue[index].visible = false;
 
                     window.setTimeout(() => {
@@ -336,12 +471,87 @@
 
     if (typeof window.goeyToast === 'undefined') {
         window.goeyToast = function (message, options = {}) {
+            const detail = {
+                ...options,
+                id: options.id ?? `goey-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
+                message,
+            };
+
             window.dispatchEvent(new CustomEvent('goey-toast', {
-                detail: {
-                    message,
-                    ...options,
-                },
+                detail,
             }));
+
+            return detail.id;
+        };
+
+        window.goeyToast.promise = async function (promiseOrFactory, options = {}) {
+            const loading = typeof options.loading === 'string'
+                ? { message: options.loading }
+                : (options.loading ?? { message: 'Loading...', type: 'info', dismissible: false, duration: 0 });
+
+            const loadingToastId = window.goeyToast(loading.message ?? 'Loading...', {
+                type: loading.type ?? 'info',
+                title: loading.title ?? null,
+                description: loading.description ?? null,
+                dismissible: loading.dismissible ?? false,
+                duration: Number(loading.duration ?? 0),
+                spring: loading.spring ?? false,
+            });
+
+            try {
+                const promise = typeof promiseOrFactory === 'function'
+                    ? promiseOrFactory()
+                    : promiseOrFactory;
+
+                const result = await promise;
+
+                if (loadingToastId) {
+                    window.dispatchEvent(new CustomEvent('goey-toast-dismiss', {
+                        detail: { id: loadingToastId },
+                    }));
+                }
+
+                const success = typeof options.success === 'function'
+                    ? options.success(result)
+                    : (typeof options.success === 'string' ? { message: options.success } : (options.success ?? null));
+
+                if (success?.message) {
+                    window.goeyToast(success.message, {
+                        type: success.type ?? 'success',
+                        title: success.title ?? null,
+                        description: success.description ?? null,
+                        duration: Number(success.duration ?? 4500),
+                        dismissible: success.dismissible ?? true,
+                        spring: success.spring ?? true,
+                    });
+                }
+
+                return result;
+            } catch (error) {
+                if (loadingToastId) {
+                    window.dispatchEvent(new CustomEvent('goey-toast-dismiss', {
+                        detail: { id: loadingToastId },
+                    }));
+                }
+
+                const fallbackMessage = error instanceof Error ? error.message : 'Something went wrong';
+                const failure = typeof options.error === 'function'
+                    ? options.error(error)
+                    : (typeof options.error === 'string' ? { message: options.error } : (options.error ?? { message: fallbackMessage }));
+
+                if (failure?.message) {
+                    window.goeyToast(failure.message, {
+                        type: failure.type ?? 'danger',
+                        title: failure.title ?? null,
+                        description: failure.description ?? null,
+                        duration: Number(failure.duration ?? 5000),
+                        dismissible: failure.dismissible ?? true,
+                        spring: failure.spring ?? true,
+                    });
+                }
+
+                throw error;
+            }
         };
     }
 

@@ -10,7 +10,7 @@ use Illuminate\View\Component;
 class GoeyToastStack extends Component
 {
     /**
-     * @return array<int, array{id: string, type: string, message: string, title: ?string, description: ?string, action: array<string, mixed>|null, spring: ?bool, duration: int, dismissible: bool, meta: array<string, mixed>}>
+     * @return array<int, array{id: string, type: string, message: string, title: ?string, description: ?string, action: array<string, mixed>|null, spring: ?bool, duration: int, dismissible: bool, count: int, createdAtMs: int, meta: array<string, mixed>}>
      */
     public function toasts(): array
     {
@@ -29,7 +29,7 @@ class GoeyToastStack extends Component
     }
 
     /**
-     * @return array<int, array{id: string, type: string, message: string, title: ?string, description: ?string, action: array<string, mixed>|null, spring: ?bool, duration: int, dismissible: bool, meta: array<string, mixed>}>
+     * @return array<int, array{id: string, type: string, message: string, title: ?string, description: ?string, action: array<string, mixed>|null, spring: ?bool, duration: int, dismissible: bool, count: int, createdAtMs: int, meta: array<string, mixed>}>
      */
     protected function legacyFlashedToasts(): array
     {
@@ -61,6 +61,8 @@ class GoeyToastStack extends Component
                 'spring' => null,
                 'duration' => (int) config('goey-toast.default_duration', 4500),
                 'dismissible' => (bool) config('goey-toast.dismissible', true),
+                'count' => 1,
+                'createdAtMs' => 0,
                 'meta' => [
                     'source' => 'legacy-flash',
                     'key' => $flashKey,
@@ -108,6 +110,10 @@ class GoeyToastStack extends Component
                 'smoothCurve' => (string) ($animation['smooth_curve'] ?? 'cubic-bezier(0.4, 0, 0.2, 1)'),
                 'startOffset' => (int) ($animation['start_offset'] ?? 14),
                 'startScale' => (float) ($animation['start_scale'] ?? 0.92),
+            ],
+            'dedupe' => [
+                'enabled' => (bool) config('goey-toast.dedupe.enabled', true),
+                'windowMs' => max((int) config('goey-toast.dedupe.window_ms', 3000), 0),
             ],
         ]);
     }

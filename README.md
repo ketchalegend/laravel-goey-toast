@@ -60,6 +60,19 @@ window.goeyToast('Saved', {
 });
 ```
 
+Promise lifecycle helper:
+
+```js
+await window.goeyToast.promise(
+  () => fetch('/api/sync').then((r) => r.json()),
+  {
+    loading: { message: 'Syncing...', type: 'info' },
+    success: { message: 'Sync complete', type: 'success' },
+    error: (err) => ({ message: err?.message ?? 'Sync failed', type: 'danger' }),
+  }
+);
+```
+
 Dispatch from Livewire with browser events:
 
 ```php
@@ -79,6 +92,10 @@ return [
     'default_duration' => 4500,
     'max_visible' => 4,
     'dismissible' => true,
+    'dedupe' => [
+        'enabled' => true,
+        'window_ms' => 3000,
+    ],
     'animation' => [
         'spring_enabled' => true,
         'enter_duration' => 460,
@@ -95,3 +112,4 @@ Per-toast overrides:
 - `spring` (`true|false`) to enable/disable spring effect on a toast.
 - `title` and `description` for richer content.
 - `action` with `label`, optional `href`, optional `event`, optional `payload`, optional `dismissOnClick`.
+- Duplicate toasts inside the dedupe window are automatically grouped and display a `×N` badge.

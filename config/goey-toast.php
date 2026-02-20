@@ -15,6 +15,11 @@ return [
 
     'dismissible' => true,
 
+    'dedupe' => [
+        'enabled' => true,
+        'window_ms' => 3000,
+    ],
+
     'animation' => [
         'spring_enabled' => true,
         'enter_duration' => 460,

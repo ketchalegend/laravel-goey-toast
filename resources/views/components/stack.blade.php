@@ -1,8 +1,10 @@
 @php
     $positionMap = [
         'top-right' => 'top: 1rem; right: 1rem;',
+        'top-center' => 'top: 1rem; left: 50%; transform: translateX(-50%);',
         'top-left' => 'top: 1rem; left: 1rem;',
         'bottom-right' => 'bottom: 1rem; right: 1rem;',
+        'bottom-center' => 'bottom: 1rem; left: 50%; transform: translateX(-50%);',
         'bottom-left' => 'bottom: 1rem; left: 1rem;',
     ];
 
@@ -15,6 +17,7 @@
     x-data="window.goeyToastStack({
         initialToasts: @js($toasts),
         maxVisible: @js($maxVisible),
+        animation: @js($animation),
     })"
     x-on:goey-toast.window="push($event.detail)"
     style="position: fixed; {{ $stackStyle }} z-index: {{ $zIndex }}; width: min(360px, calc(100vw - 2rem)); pointer-events: none;"
@@ -32,7 +35,8 @@
     <div style="display: grid; gap: 0.65rem; filter: url(#goey-toast-filter);">
         <template x-for="toast in visibleToasts" :key="toast.id">
             <article
-                :class="`goey-toast goey-toast--${toast.type}`"
+                :data-toast-id="toast.id"
+                :class="`goey-toast goey-toast--${toast.type} ${toast.spring ? 'goey-toast--spring' : 'goey-toast--smooth'}`"
                 x-show="toast.visible"
                 x-transition:enter="goey-toast-enter"
                 x-transition:enter-start="goey-toast-enter-start"
@@ -44,7 +48,9 @@
                 aria-live="polite"
                 style="pointer-events: auto;"
             >
-                <p x-text="toast.message"></p>
+                <p class="goey-toast__title" x-show="toast.title" x-text="toast.title"></p>
+                <p class="goey-toast__message" x-text="toast.message"></p>
+                <p class="goey-toast__description" x-show="toast.description" x-text="toast.description"></p>
                 <button
                     x-show="toast.dismissible"
                     type="button"
@@ -54,6 +60,13 @@
                 >
                     ×
                 </button>
+                <button
+                    x-show="toast.action && toast.action.label"
+                    type="button"
+                    class="goey-toast__action"
+                    @click="handleAction(toast)"
+                    x-text="toast.action?.label"
+                ></button>
                 <div class="goey-toast__timer" :style="`animation-duration: ${toast.duration}ms;`"></div>
             </article>
         </template>
@@ -72,6 +85,37 @@
         backdrop-filter: blur(6px);
         border: 1px solid rgba(255, 255, 255, 0.15);
         transform-origin: top right;
+    }
+
+    .goey-toast__title {
+        font-size: 1.02rem;
+        font-weight: 700;
+        margin-bottom: 0.2rem;
+    }
+
+    .goey-toast__message {
+        font-size: 1rem;
+        line-height: 1.35rem;
+    }
+
+    .goey-toast__description {
+        margin-top: 0.35rem;
+        font-size: 0.98rem;
+        font-weight: 500;
+        line-height: 1.35rem;
+        color: rgba(255, 255, 255, 0.92);
+    }
+
+    .goey-toast__action {
+        margin-top: 0.55rem;
+        border: 0;
+        background: rgba(255, 255, 255, 0.2);
+        color: #fff;
+        border-radius: 999px;
+        padding: 0.25rem 0.7rem;
+        font-size: 0.78rem;
+        font-weight: 700;
+        cursor: pointer;
     }
 
     .goey-toast--success {
@@ -116,12 +160,14 @@
     }
 
     .goey-toast-enter {
-        transition: all 280ms cubic-bezier(.22,1,.36,1);
+        transition-property: opacity, transform;
+        transition-duration: var(--goey-enter-duration, 460ms);
+        transition-timing-function: var(--goey-enter-curve, cubic-bezier(0.175, 0.885, 0.32, 1.275));
     }
 
     .goey-toast-enter-start {
         opacity: 0;
-        transform: translate3d(0, -12px, 0) scale(0.92);
+        transform: translate3d(0, calc(var(--goey-enter-offset, 14px) * -1), 0) scale(var(--goey-enter-scale, 0.92));
     }
 
     .goey-toast-enter-end {
@@ -130,7 +176,17 @@
     }
 
     .goey-toast-leave {
-        transition: all 230ms cubic-bezier(.4,0,.2,1);
+        transition-property: opacity, transform;
+        transition-duration: var(--goey-leave-duration, 230ms);
+        transition-timing-function: var(--goey-leave-curve, cubic-bezier(0.4, 0, 0.2, 1));
+    }
+
+    .goey-toast--spring {
+        --goey-enter-curve: var(--goey-spring-curve, cubic-bezier(0.175, 0.885, 0.32, 1.275));
+    }
+
+    .goey-toast--smooth {
+        --goey-enter-curve: var(--goey-smooth-curve, cubic-bezier(0.4, 0, 0.2, 1));
     }
 
     .goey-toast-leave-start {
@@ -182,8 +238,11 @@
             return {
                 queue: [],
                 maxVisible: Number(config.maxVisible ?? 4),
+                animation: config.animation ?? {},
 
                 init() {
+                    this.applyAnimationVars();
+
                     const incoming = Array.isArray(config.initialToasts) ? config.initialToasts : [];
 
                     for (const toast of incoming) {
@@ -195,6 +254,22 @@
                     return this.queue.slice(0, this.maxVisible);
                 },
 
+                applyAnimationVars() {
+                    const root = this.$root;
+
+                    if (!root) {
+                        return;
+                    }
+
+                    root.style.setProperty('--goey-enter-duration', `${Number(this.animation.enterDuration ?? 460)}ms`);
+                    root.style.setProperty('--goey-leave-duration', `${Number(this.animation.leaveDuration ?? 230)}ms`);
+                    root.style.setProperty('--goey-enter-offset', `${Number(this.animation.startOffset ?? 14)}px`);
+                    root.style.setProperty('--goey-enter-scale', `${Number(this.animation.startScale ?? 0.92)}`);
+                    root.style.setProperty('--goey-spring-curve', this.animation.springCurve ?? 'cubic-bezier(0.175, 0.885, 0.32, 1.275)');
+                    root.style.setProperty('--goey-smooth-curve', this.animation.smoothCurve ?? 'cubic-bezier(0.4, 0, 0.2, 1)');
+                    root.style.setProperty('--goey-leave-curve', this.animation.smoothCurve ?? 'cubic-bezier(0.4, 0, 0.2, 1)');
+                },
+
                 push(detail) {
                     if (!detail || typeof detail.message !== 'string' || detail.message.length === 0) {
                         return;
@@ -203,9 +278,13 @@
                     const toast = {
                         id: detail.id ?? `goey-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
                         type: detail.type ?? 'info',
+                        title: detail.title ?? null,
                         message: detail.message,
+                        description: detail.description ?? null,
+                        action: detail.action ?? null,
                         duration: Number(detail.duration ?? 4500),
                         dismissible: detail.dismissible ?? true,
+                        spring: detail.spring ?? Boolean(this.animation.springEnabled ?? true),
                         visible: true,
                     };
 
@@ -214,6 +293,28 @@
                     window.setTimeout(() => {
                         this.remove(toast.id);
                     }, toast.duration);
+                },
+
+                handleAction(toast) {
+                    const action = toast?.action ?? null;
+
+                    if (!action) {
+                        return;
+                    }
+
+                    if (typeof action.href === 'string' && action.href.length > 0) {
+                        window.location.assign(action.href);
+                    }
+
+                    if (typeof action.event === 'string' && action.event.length > 0) {
+                        window.dispatchEvent(new CustomEvent(action.event, {
+                            detail: action.payload ?? {},
+                        }));
+                    }
+
+                    if (action.dismissOnClick !== false) {
+                        this.remove(toast.id);
+                    }
                 },
 
                 remove(id) {

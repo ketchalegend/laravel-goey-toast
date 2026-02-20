@@ -14,4 +14,14 @@ return [
     'z_index' => 9999,
 
     'dismissible' => true,
+
+    'animation' => [
+        'spring_enabled' => true,
+        'enter_duration' => 460,
+        'leave_duration' => 230,
+        'spring_curve' => 'cubic-bezier(0.175, 0.885, 0.32, 1.275)',
+        'smooth_curve' => 'cubic-bezier(0.4, 0, 0.2, 1)',
+        'start_offset' => 14,
+        'start_scale' => 0.92,
+    ],
 ];

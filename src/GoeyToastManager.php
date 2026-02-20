@@ -21,10 +21,21 @@ class GoeyToastManager
         ?bool $dismissible = null,
         array $meta = [],
     ): Toast {
+        $title = is_string($meta['title'] ?? null) ? (string) $meta['title'] : null;
+        $description = is_string($meta['description'] ?? null) ? (string) $meta['description'] : null;
+        $action = is_array($meta['action'] ?? null) ? $meta['action'] : null;
+        $spring = isset($meta['spring']) ? (bool) $meta['spring'] : null;
+
+        unset($meta['title'], $meta['description'], $meta['action'], $meta['spring']);
+
         $toast = new Toast(
             id: (string) Str::uuid(),
             type: $type,
             message: $message,
+            title: $title,
+            description: $description,
+            action: $action,
+            spring: $spring,
             duration: $duration ?? (int) config('goey-toast.default_duration', 4500),
             dismissible: $dismissible ?? (bool) config('goey-toast.dismissible', true),
             meta: $meta,

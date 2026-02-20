@@ -1,0 +1,37 @@
+composer.lock
+  697107f70c4a9fd1 7,2419-2467
+resources/views/layouts/app/sidebar.blade.php
+  697107f70c4a9fd1 163-164
+resources/views/layouts/employer/sidebar.blade.php
+  697107f70c4a9fd1 185-186
+tests/Feature/Settings/NotificationPreferencesTest.php
+  697107f70c4a9fd1 1-20
+tests/Feature/GoeyToastPackageTest.php
+  697107f70c4a9fd1 1-59
+app/Livewire/Settings/NotificationPreferences.php
+  697107f70c4a9fd1 31
+composer.json
+  697107f70c4a9fd1 12
+resources/views/layouts/public.blade.php
+  697107f70c4a9fd1 30-31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "66ea6c15b4b89173d19d1baf3de955a5d5138e6e",
+  "prompts": {
+    "697107f70c4a9fd1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019c7b0b-16e5-7ac1-afcc-9c26d01a1a9b",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 165,
+      "total_deletions": 29,
+      "accepted_lines": 139,
+      "overriden_lines": 0
+    }
+  }
+}

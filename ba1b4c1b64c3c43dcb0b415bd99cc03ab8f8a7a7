@@ -1,0 +1,78 @@
+app/Filament/Widgets/UsersByRoleChart.php
+  4afcdc6a8bdebebb 23,34,40
+database/migrations/2026_02_20_214029_create_erg_profiles_table.php
+  4afcdc6a8bdebebb 1-42
+database/factories/UserFactory.php
+  4afcdc6a8bdebebb 93-102
+app/Models/ErgProfile.php
+  4afcdc6a8bdebebb 1-4,6-20,22-25,30-31,33-35,37-43,47-48,50-94
+  ee1820dfc8dae0f9 5,21,26-29,32,36,44-46,49
+packages/ketchalegend/laravel-goey-toast/phpunit.xml
+  4afcdc6a8bdebebb 1-12
+tests/Feature/Public/ErgPagesTest.php
+  4afcdc6a8bdebebb 1-2,5,75
+  ee1820dfc8dae0f9 3-4,6-27,29,34-36,44-47,51-74
+  9c495f3ff48f9879 28,30-33,37-43,48-50
+app/Models/User.php
+  4afcdc6a8bdebebb 113-117
+packages/ketchalegend/laravel-goey-toast/resources/views/components/stack.blade.php
+  9c495f3ff48f9879 21,23-25,58,126-139,278-279,316-325,338-340,345-347,349-408,410-425,457-461,474-479,481,483-554
+  4afcdc6a8bdebebb 50-52,230-244
+tests/Feature/ErgRoleAccessTest.php
+  9c495f3ff48f9879 50-59
+  ee1820dfc8dae0f9 3-6,8-48
+  4afcdc6a8bdebebb 1-2,7,49
+app/Http/Responses/LoginResponse.php
+  4afcdc6a8bdebebb 45
+app/Enums/UserRole.php
+  4afcdc6a8bdebebb 10,18
+database/factories/ErgProfileFactory.php
+  ee1820dfc8dae0f9 29-32,37-40,47,50
+  4afcdc6a8bdebebb 1-28,33-36,41-46,48-49,51-53
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "ba1b4c1b64c3c43dcb0b415bd99cc03ab8f8a7a7",
+  "prompts": {
+    "4afcdc6a8bdebebb": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019c7cfb-8575-74e3-9bea-53c74909f847",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 240,
+      "total_deletions": 8,
+      "accepted_lines": 228,
+      "overriden_lines": 0
+    },
+    "9c495f3ff48f9879": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019c7d05-1d93-7ed2-8270-c6b774f4f70a",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 225,
+      "total_deletions": 20,
+      "accepted_lines": 224,
+      "overriden_lines": 0
+    },
+    "ee1820dfc8dae0f9": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019c7cfb-ea0f-7300-9f42-a0d97563c597",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 136,
+      "total_deletions": 13,
+      "accepted_lines": 123,
+      "overriden_lines": 0
+    }
+  }
+}

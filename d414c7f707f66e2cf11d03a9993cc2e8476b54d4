@@ -1,0 +1,39 @@
+resources/views/livewire/employer/feature/messaging.blade.php
+  2a9e182cb9d37f38 3-8,10-17,20-31,36-42,44-46,63-74,76-78,80-83,85-86,94
+tests/Feature/Employer/EmployerPackageEnforcementTest.php
+  3fb632430f66f44f 431,462
+  2a9e182cb9d37f38 5,625-637,655-658
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "d414c7f707f66e2cf11d03a9993cc2e8476b54d4",
+  "prompts": {
+    "2a9e182cb9d37f38": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019c8675-2651-70d0-84f1-ed8c7daa1157",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 93,
+      "total_deletions": 27,
+      "accepted_lines": 79,
+      "overriden_lines": 0
+    },
+    "3fb632430f66f44f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019c8779-eb76-7820-975b-7770ae4e78be",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 2,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    }
+  }
+}

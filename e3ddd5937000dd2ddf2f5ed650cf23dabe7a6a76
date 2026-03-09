@@ -1,0 +1,66 @@
+app/Livewire/Employer/Job/Create.php
+  94c971b6d85db5aa 7,76
+app/Livewire/Employer/Job/Edit.php
+  94c971b6d85db5aa 7,92
+app/Livewire/Public/Jobs/ShowPage.php
+  543b438c1b95cb4f 16,472,474
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.8",
+  "base_commit_sha": "e3ddd5937000dd2ddf2f5ed650cf23dabe7a6a76",
+  "prompts": {
+    "4aa75e5fb67687fa": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_36eb5e44bffeFwjiKyR7qxXWNU",
+        "model": "opencode/minimax-m2.5-free"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 246,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    },
+    "543b438c1b95cb4f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ccf87-fbec-75b3-8089-68e6634ebfda",
+        "model": "unknown"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 128,
+      "total_deletions": 2,
+      "accepted_lines": 128,
+      "overriden_lines": 0
+    },
+    "94c971b6d85db5aa": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ccf87-e56b-7e10-94c9-18abc8ccc281",
+        "model": "gpt-5.4"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 124,
+      "total_deletions": 2,
+      "accepted_lines": 124,
+      "overriden_lines": 0
+    },
+    "dbb0cc22bd7219b9": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019c9635-3b90-78d2-8389-ef491d290405",
+        "model": "unknown"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 1,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    }
+  }
+}

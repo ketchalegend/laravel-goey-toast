@@ -1,0 +1,36 @@
+resources/views/livewire/public/home-page.blade.php
+  0fa19a265b54119d 11-16,38-39,41,44-55,221,230,578-579,581,583,585,587,633-634,637,641,643,645-646,648,652,662,883
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.10",
+  "base_commit_sha": "592f6de7bf9a06ddbb8e5d8fdee44b4b6cdba282",
+  "prompts": {
+    "0fa19a265b54119d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019cd93b-a6ed-7d02-9d65-d354ee8ef573",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 42,
+      "total_deletions": 38,
+      "accepted_lines": 41,
+      "overriden_lines": 0
+    },
+    "c53214b75a01bfd5": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019cd940-7284-7060-97a1-51f99e9fd6a3",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 2,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    }
+  }
+}

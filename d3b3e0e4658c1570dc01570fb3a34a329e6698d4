@@ -1,0 +1,23 @@
+app/Http/Middleware/CanonicalizePublicRouteKeys.php
+  cb41d1f5fc0b539a 6,17-20,22-24,26-28,31-32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.10",
+  "base_commit_sha": "d3b3e0e4658c1570dc01570fb3a34a329e6698d4",
+  "prompts": {
+    "cb41d1f5fc0b539a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019cdee6-d17e-78a0-8a06-4fbad2e05189",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 13,
+      "total_deletions": 24,
+      "accepted_lines": 13,
+      "overriden_lines": 0
+    }
+  }
+}

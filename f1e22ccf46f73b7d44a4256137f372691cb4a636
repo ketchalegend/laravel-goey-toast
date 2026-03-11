@@ -1,0 +1,53 @@
+tests/Feature/Filament/EmployerInviteAdminTest.php
+  a9205ad4739a10ad 4-6,14,40-42,48,51-52,67-69,73,76-77,102-104,108,111-112,123-126,138-140,150-152
+app/Filament/Resources/Profiles/ProfileResource.php
+  a9205ad4739a10ad 46
+lang/de.json
+  a9205ad4739a10ad 1995-2031
+tests/Feature/Public/ContentEditorTest.php
+  a9205ad4739a10ad 106,285,298,306
+tests/Unit/Models/EmployerInviteTest.php
+  a9205ad4739a10ad 32-33,128
+tests/Feature/Filament/ProfileResourceNavigationVisibilityTest.php
+  a9205ad4739a10ad 9,17
+tests/Feature/Auth/AuthenticationTest.php
+  a9205ad4739a10ad 22
+app/Services/AiHiringInsightsService.php
+  a9205ad4739a10ad 371-374
+tests/Feature/Filament/EmployerInviteResourceTest.php
+  a9205ad4739a10ad 87,98,180,206
+tests/Feature/Filament/EmployerSubscriptionResourceTest.php
+  a9205ad4739a10ad 103
+tests/Unit/Notifications/EmployerInviteNotificationTest.php
+  a9205ad4739a10ad 39,57,71,84,101
+tests/Feature/Filament/ErgInviteResourceTest.php
+  a9205ad4739a10ad 94,116
+tests/Feature/Auth/EmailVerificationTest.php
+  a9205ad4739a10ad 32,63
+tests/Unit/Models/CompanyTest.php
+  a9205ad4739a10ad 343,387-388
+tests/Feature/Livewire/Employer/DashboardComponentTest.php
+  a9205ad4739a10ad 74-75
+tests/Feature/Filament/EmployerSubscriptionAdminTest.php
+  a9205ad4739a10ad 4-6,12,37-39,45-46,59-61,65,67-68,86-88,93-94,113-115,137-139,162-164,170-171,245-247
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.10",
+  "base_commit_sha": "f1e22ccf46f73b7d44a4256137f372691cb4a636",
+  "prompts": {
+    "a9205ad4739a10ad": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019cdeeb-71a4-7dc0-8cbc-475464e02b5c",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 142,
+      "total_deletions": 80,
+      "accepted_lines": 137,
+      "overriden_lines": 0
+    }
+  }
+}

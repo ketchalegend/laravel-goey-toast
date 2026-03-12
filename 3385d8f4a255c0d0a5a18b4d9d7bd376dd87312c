@@ -1,0 +1,25 @@
+app/Livewire/Employer/Settings/NotificationPreferences.php
+  5e29306833b63155 5,11,15,18,20
+app/Livewire/Settings/NotificationPreferences.php
+  5e29306833b63155 5,11,15,20,32-34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.10",
+  "base_commit_sha": "3385d8f4a255c0d0a5a18b4d9d7bd376dd87312c",
+  "prompts": {
+    "5e29306833b63155": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ce11b-e1a7-7540-8b7d-8491195e0ba0",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 14,
+      "total_deletions": 36,
+      "accepted_lines": 14,
+      "overriden_lines": 0
+    }
+  }
+}

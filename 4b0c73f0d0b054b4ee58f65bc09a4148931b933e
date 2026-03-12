@@ -1,0 +1,29 @@
+tests/Feature/Http/LoginRegisterResponseTest.php
+  1257356e094ed9ca 7
+app/Filament/Resources/EmployerInvites/EmployerInviteResource.php
+  1257356e094ed9ca 13
+app/Filament/Resources/ErgInvites/ErgInviteResource.php
+  1257356e094ed9ca 12
+tests/Feature/Http/Responses/AuthResponsesTest.php
+  1257356e094ed9ca 10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.10",
+  "base_commit_sha": "4b0c73f0d0b054b4ee58f65bc09a4148931b933e",
+  "prompts": {
+    "1257356e094ed9ca": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019cdf08-d101-7aa2-a85b-35722f8eeb42",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 5,
+      "total_deletions": 5,
+      "accepted_lines": 4,
+      "overriden_lines": 0
+    }
+  }
+}

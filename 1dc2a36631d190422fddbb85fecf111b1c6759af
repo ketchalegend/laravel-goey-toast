@@ -1,0 +1,23 @@
+app/Http/Controllers/ResumeDownloadController.php
+  c8e0c961e87778d0 10,15-24,30,40,42,48,51,53,56-61,63,67,69,71,73,76-80,82-83,89,91,93,96,99
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.10",
+  "base_commit_sha": "1dc2a36631d190422fddbb85fecf111b1c6759af",
+  "prompts": {
+    "c8e0c961e87778d0": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ce2c6-fd59-7661-8294-a76ddc530608",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 42,
+      "total_deletions": 46,
+      "accepted_lines": 40,
+      "overriden_lines": 0
+    }
+  }
+}

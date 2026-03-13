@@ -1,0 +1,25 @@
+tests/Feature/Public/PublicSiteTest.php
+  77b8e0418f02eac8 291-324
+app/Livewire/Public/Jobs/IndexPage.php
+  77b8e0418f02eac8 145,155
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.11",
+  "base_commit_sha": "c4a68d94cf29fbdb1a7c8434969a13a634a5d8aa",
+  "prompts": {
+    "77b8e0418f02eac8": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ce669-ca5b-7911-81e9-405834f7a4bc",
+        "model": "gpt-5.4"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 36,
+      "total_deletions": 0,
+      "accepted_lines": 36,
+      "overriden_lines": 0
+    }
+  }
+}

@@ -1,0 +1,47 @@
+database/seeders/DatabaseSeeder.php
+  2772c8771e0c4434 182
+config/public_content_editor.php
+  2772c8771e0c4434 58
+database/seeders/AdanCareerDayCompaniesSeeder.php
+  2772c8771e0c4434 1-485
+app/Models/Event.php
+  2772c8771e0c4434 41-42,90-91,129-139
+tests/Feature/AdanCareerDayCompaniesSeederTest.php
+  2772c8771e0c4434 1-58
+database/migrations/2026_03_15_160808_add_adan_career_day_fields_to_events_table.php
+  2772c8771e0c4434 1-26
+app/Notifications/CareerDayContactNotification.php
+  2772c8771e0c4434 1-67
+tests/Feature/Public/AdanCareerDayEventTest.php
+  2772c8771e0c4434 1-50
+resources/views/livewire/public/events/show-page.blade.php
+  2772c8771e0c4434 93-95,98-99,102-103,120-122,469
+resources/views/livewire/public/events/partials/adan-career-day-layout.blade.php
+  2772c8771e0c4434 1-497
+app/Filament/Resources/Events/Schemas/EventForm.php
+  2772c8771e0c4434 246-249,258-293,372-406
+app/Livewire/Public/Events/ShowPage.php
+  2772c8771e0c4434 13-14,43-56,336-387
+database/factories/EventFactory.php
+  2772c8771e0c4434 268-303
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.12",
+  "base_commit_sha": "39c8019d8fdf57655314d392e7e9e895817276e0",
+  "prompts": {
+    "2772c8771e0c4434": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "db491265-3d02-462f-92e9-61da687e6881",
+        "model": "composer-1.5"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 2091,
+      "total_deletions": 701,
+      "accepted_lines": 1390,
+      "overriden_lines": 0
+    }
+  }
+}

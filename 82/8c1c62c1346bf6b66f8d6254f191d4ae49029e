@@ -1,0 +1,35 @@
+resources/views/livewire/public/events/index-page.blade.php
+  2772c8771e0c4434 110,136,206,231
+tests/Feature/Public/PublicSiteTest.php
+  2772c8771e0c4434 1111
+resources/views/public/partials/footer.blade.php
+  2772c8771e0c4434 132-134
+lang/en.json
+  2772c8771e0c4434 1836,1838-1839
+lang/de.json
+  2772c8771e0c4434 1875,1878-1879
+resources/views/livewire/public/events/show-page.blade.php
+  2772c8771e0c4434 7,9,460
+resources/views/livewire/public/events/partials/adan-career-day-layout.blade.php
+  2772c8771e0c4434 28,30-31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.12",
+  "base_commit_sha": "828c1c62c1346bf6b66f8d6254f191d4ae49029e",
+  "prompts": {
+    "2772c8771e0c4434": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "db491265-3d02-462f-92e9-61da687e6881",
+        "model": "composer-1.5"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 37,
+      "total_deletions": 28,
+      "accepted_lines": 20,
+      "overriden_lines": 0
+    }
+  }
+}

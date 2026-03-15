@@ -1,0 +1,25 @@
+resources/views/livewire/public/events/index-page.blade.php
+  2772c8771e0c4434 139,141,234,236
+resources/views/livewire/public/events/show-page.blade.php
+  2772c8771e0c4434 116
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.12",
+  "base_commit_sha": "6a998f89e7febc72dfe6479a7ad426dc61402731",
+  "prompts": {
+    "2772c8771e0c4434": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "db491265-3d02-462f-92e9-61da687e6881",
+        "model": "composer-1.5"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 7,
+      "total_deletions": 3,
+      "accepted_lines": 5,
+      "overriden_lines": 0
+    }
+  }
+}

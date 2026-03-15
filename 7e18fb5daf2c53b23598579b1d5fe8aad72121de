@@ -1,0 +1,83 @@
+app/Filament/Resources/EmployerSubscriptions/Pages/ListEmployerSubscriptions.php
+  2772c8771e0c4434 6,9-10,22-47
+resources/views/filament/pages/profile.blade.php
+  2772c8771e0c4434 13,30,49,63,77,84,104,117
+app/Filament/Pages/Dashboard.php
+  2772c8771e0c4434 1-18
+app/Filament/Resources/Users/Pages/ListUsers.php
+  2772c8771e0c4434 5,7,10-11,23-63
+app/Filament/Resources/Events/Pages/ListEvents.php
+  2772c8771e0c4434 5,7,10-11,23-53
+app/Filament/Resources/EmployerSubscriptions/EmployerSubscriptionResource.php
+  2772c8771e0c4434 5,24
+app/Filament/Resources/EmployerInvites/EmployerInviteResource.php
+  2772c8771e0c4434 5,32
+app/Filament/Resources/SiteSettings/Schemas/SiteSettingForm.php
+  2772c8771e0c4434 8-9,11-12,15,21-22,25-35,38,43,46-50,52,57,60-64,66,71,74-78,80,85,88-90,92-96,98-127
+app/Filament/Resources/EmployerPackages/Pages/ListEmployerPackages.php
+  2772c8771e0c4434 6,9-10,22-37
+app/Filament/Resources/SiteSettings/SiteSettingResource.php
+  2772c8771e0c4434 5,25
+app/Filament/Resources/JobListings/JobListingResource.php
+  2772c8771e0c4434 5,30
+app/Filament/Resources/ErgProfiles/Pages/ListErgProfiles.php
+  2772c8771e0c4434 6,9-10,22-42
+app/Filament/Resources/ErgInvites/ErgInviteResource.php
+  2772c8771e0c4434 5,31
+app/Providers/Filament/AdminPanelProvider.php
+  2772c8771e0c4434 5,30,47-48,50-51,53-65
+app/Filament/Resources/Profiles/ProfileResource.php
+  2772c8771e0c4434 5,33
+app/Filament/Resources/BlogPosts/Pages/ListBlogPosts.php
+  2772c8771e0c4434 6,9-10,22-37
+app/Filament/Resources/SiteSettings/Pages/EditSiteSetting.php
+  2772c8771e0c4434 11-15
+app/Filament/Resources/ErgProfiles/ErgProfileResource.php
+  2772c8771e0c4434 5,25
+app/Filament/Widgets/PendingActionsWidget.php
+  2772c8771e0c4434 1-68
+app/Filament/Pages/Profile.php
+  2772c8771e0c4434 11,27-28,45,48,57
+app/Filament/Resources/Companies/CompanyResource.php
+  2772c8771e0c4434 6,52
+app/Filament/Resources/ErgInvites/Pages/ListErgInvites.php
+  2772c8771e0c4434 6,9-10,22-37
+app/Filament/Resources/Events/EventResource.php
+  2772c8771e0c4434 6,33
+app/Filament/Resources/EmployerInvites/Pages/ListEmployerInvites.php
+  2772c8771e0c4434 6,9-10,22-37
+app/Enums/Filament/NavigationGroup.php
+  2772c8771e0c4434 1-46
+app/Filament/Resources/BlogPosts/BlogPostResource.php
+  2772c8771e0c4434 5,25
+app/Filament/Pages/SiteSettings.php
+  2772c8771e0c4434 5,16
+app/Filament/Resources/Users/UserResource.php
+  2772c8771e0c4434 5,34
+app/Filament/Resources/EmployerPackages/EmployerPackageResource.php
+  2772c8771e0c4434 5,24
+app/Filament/Resources/Applications/ApplicationResource.php
+  2772c8771e0c4434 5,24
+app/Filament/Widgets/EngagementOverview.php
+  2772c8771e0c4434 15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.12",
+  "base_commit_sha": "7e18fb5daf2c53b23598579b1d5fe8aad72121de",
+  "prompts": {
+    "2772c8771e0c4434": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "db491265-3d02-462f-92e9-61da687e6881",
+        "model": "composer-1.5"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 566,
+      "total_deletions": 134,
+      "accepted_lines": 505,
+      "overriden_lines": 0
+    }
+  }
+}

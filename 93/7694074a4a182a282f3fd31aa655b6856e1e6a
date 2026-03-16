@@ -1,0 +1,44 @@
+app/Livewire/Public/ForCompaniesPage.php
+  7df7758258238712 138
+tests/Feature/Livewire/Employer/OnboardingValidationTest.php
+  d5efcee19a4b8e00 155,168,170-171
+app/Livewire/Employer/Onboarding.php
+  d5efcee19a4b8e00 150,198
+tests/Feature/Livewire/Employer/OnboardingComponentTest.php
+  d5efcee19a4b8e00 142,149,151-152
+resources/views/livewire/employer/onboarding.blade.php
+  d5efcee19a4b8e00 164
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.12",
+  "base_commit_sha": "937694074a4a182a282f3fd31aa655b6856e1e6a",
+  "prompts": {
+    "7df7758258238712": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "4bb04e1c-fb14-4f15-883d-1e8b17e9ff1b",
+        "model": "composer-1.5"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 1,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    },
+    "d5efcee19a4b8e00": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "b88437f3-98e4-4bf9-afa5-76bba340e37a",
+        "model": "composer-1.5"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 11,
+      "total_deletions": 9,
+      "accepted_lines": 11,
+      "overriden_lines": 0
+    }
+  }
+}

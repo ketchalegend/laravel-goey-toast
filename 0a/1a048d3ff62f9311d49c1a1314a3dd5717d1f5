@@ -1,0 +1,27 @@
+resources/views/livewire/applicant/resume-builder.blade.php
+  07773c98733147a7 228
+app/Livewire/Applicant/ResumeBuilder.php
+  07773c98733147a7 193-200,304-306,312-314
+tests/Feature/Applicant/ResumeBuilderTest.php
+  07773c98733147a7 17-118
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.12",
+  "base_commit_sha": "0a1a048d3ff62f9311d49c1a1314a3dd5717d1f5",
+  "prompts": {
+    "07773c98733147a7": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "3ee3da64-359b-4ec2-b07a-959776d25c39",
+        "model": "composer-1.5"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 120,
+      "total_deletions": 4,
+      "accepted_lines": 119,
+      "overriden_lines": 0
+    }
+  }
+}

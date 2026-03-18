@@ -1,0 +1,77 @@
+resources/views/livewire/employer/job/create.blade.php
+  5219fb1624411317 178-181
+resources/views/livewire/employer/company/edit.blade.php
+  5219fb1624411317 143
+config/features.php
+  5219fb1624411317 9
+lang/de.json
+  5219fb1624411317 1725
+resources/views/livewire/public/companies/show-page.blade.php
+  5219fb1624411317 70,73-77,152,204-210,226-227,230-231,257,259,286,357,372,415
+tests/Feature/Jobs/ExternalApplicationTrackingTest.php
+  5219fb1624411317 92-118
+app/Livewire/Employer/Onboarding.php
+  5219fb1624411317 145
+resources/views/livewire/public/jobs/show-page.blade.php
+  5219fb1624411317 16,312,358-359,362-363,366-367
+app/Livewire/Employer/Dashboard.php
+  5219fb1624411317 67-68,75-76
+tests/Feature/Employer/EmployerAdminFeatureFlagsTest.php
+  5219fb1624411317 9,45
+app/Models/Company.php
+  5219fb1624411317 122
+resources/views/livewire/employer/job/edit.blade.php
+  5219fb1624411317 182-185
+resources/views/livewire/employer/dashboard.blade.php
+  5219fb1624411317 113-114,141,143-144,156-157,159-161,164-165,170-175,177-180
+routes/web.php
+  5219fb1624411317 126
+resources/views/livewire/employer/support/priority-support.blade.php
+  5219fb1624411317 3,5
+lang/en.json
+  5219fb1624411317 1619
+app/Livewire/Applicant/Dashboard.php
+  5219fb1624411317 106-107,110,116,120
+app/Livewire/Employer/Job/Create.php
+  5219fb1624411317 75,101-102,142-143
+app/Livewire/Employer/Job/Show.php
+  5219fb1624411317 98
+resources/views/livewire/employer/job/show.blade.php
+  5219fb1624411317 88,90-95,97
+app/Livewire/Employer/Job/Edit.php
+  5219fb1624411317 91,113-114
+app/Livewire/Employer/Job/Index.php
+  5219fb1624411317 42
+tests/Feature/Employer/EmployerPrioritySupportTest.php
+  5219fb1624411317 47,54
+tests/Feature/Employer/EmployerPackageEnforcementTest.php
+  5219fb1624411317 51,396,433,438,441,445-446,452,465,468,470,473,478,481,484-486,498,504,509,514,517,520-523,527,529,534,540
+tests/Feature/Employer/CvDatabaseFeatureTest.php
+  5219fb1624411317 249,258,278,291
+resources/views/layouts/employer/sidebar.blade.php
+  5219fb1624411317 100
+app/Models/JobListing.php
+  5219fb1624411317 87
+app/Livewire/Employer/Company/Edit.php
+  5219fb1624411317 119
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "53952a349b0c740f5f99b7bf92130743b973e056",
+  "prompts": {
+    "5219fb1624411317": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "4e6f663d-324c-499d-9e30-88ee29861a4c",
+        "model": "composer-1.5"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 229,
+      "total_deletions": 986,
+      "accepted_lines": 176,
+      "overriden_lines": 0
+    }
+  }
+}

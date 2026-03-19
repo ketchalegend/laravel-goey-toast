@@ -1,0 +1,25 @@
+app/Livewire/Public/Events/ShowPage.php
+  7fd9fcab75773b14 518-522,529
+app/Livewire/Public/Jobs/ShowPage.php
+  7fd9fcab75773b14 213-214,255
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "06b7d3518b8544ecd845508ba2c8c6a5724af7e4",
+  "prompts": {
+    "7fd9fcab75773b14": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2f95bb4eaffeXpxJkuWyt5tqnf",
+        "model": "opencode/mimo-v2-omni-free"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 9,
+      "total_deletions": 0,
+      "accepted_lines": 9,
+      "overriden_lines": 0
+    }
+  }
+}

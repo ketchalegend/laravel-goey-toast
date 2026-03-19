@@ -1,0 +1,25 @@
+app/Livewire/Applicant/Onboarding.php
+  0c56e1b0dd3fca85 5,8,10,58-64,98-99,132,147-201,248-249,269-347
+tests/Feature/OnboardingTest.php
+  0c56e1b0dd3fca85 4,136-212
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "4cb279388b8021666c1973f0995954176ebf3f23",
+  "prompts": {
+    "0c56e1b0dd3fca85": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d0653-8af7-7441-859f-8b3c94532bca",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 231,
+      "total_deletions": 5,
+      "accepted_lines": 230,
+      "overriden_lines": 0
+    }
+  }
+}

@@ -1,0 +1,44 @@
+tests/Feature/Public/AdanCareerDayEventTest.php
+  fba9a6ad5c447fe4 3,52-83
+resources/views/livewire/public/events/partials/adan-career-day-layout.blade.php
+  fba9a6ad5c447fe4 16-19,25-28,30-50,113,119,123,127,139-143,147,152,157,193,198,203,208,219,221,226,230,234,472,474,476,479,494
+resources/views/livewire/public/companies/show-page.blade.php
+  7fd9fcab75773b14 10
+resources/views/livewire/company/show.blade.php
+  7fd9fcab75773b14 70
+resources/views/livewire/public/jobs/show-page.blade.php
+  7fd9fcab75773b14 216,280
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "8745d13fd2fe51004357184b26aea5c1c79cda09",
+  "prompts": {
+    "7fd9fcab75773b14": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2f95bb4eaffeXpxJkuWyt5tqnf",
+        "model": "opencode/mimo-v2-omni-free"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 4,
+      "total_deletions": 4,
+      "accepted_lines": 4,
+      "overriden_lines": 0
+    },
+    "fba9a6ad5c447fe4": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d0731-be8d-7873-816b-ae7d9557a2ab",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 90,
+      "total_deletions": 27,
+      "accepted_lines": 89,
+      "overriden_lines": 0
+    }
+  }
+}

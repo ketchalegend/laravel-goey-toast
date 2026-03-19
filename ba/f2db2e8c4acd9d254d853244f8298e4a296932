@@ -1,0 +1,25 @@
+tests/Feature/Public/FaviconBrandingTest.php
+  2df4ac4eb87215f3 1-9
+public/favicon.svg
+  2df4ac4eb87215f3 2-3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "baf2db2e8c4acd9d254d853244f8298e4a296932",
+  "prompts": {
+    "2df4ac4eb87215f3": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d05b9-8cb5-7173-821b-166542daefc8",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 11,
+      "total_deletions": 1,
+      "accepted_lines": 11,
+      "overriden_lines": 0
+    }
+  }
+}

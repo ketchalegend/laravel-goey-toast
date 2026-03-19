@@ -1,0 +1,43 @@
+tests/Feature/Employer/EmployerSubscriptionAccessGateTest.php
+  7ebc58174d08748c 22
+tests/Feature/AdanCareerDayCompaniesSeederTest.php
+  7ebc58174d08748c 52-53,57-59
+tests/Feature/Http/Middleware/EnsureEmployerSubscriptionIsActiveTest.php
+  7ebc58174d08748c 70,122,139,156
+tests/Feature/Livewire/Applicant/DashboardTest.php
+  7ebc58174d08748c 52,54
+tests/Feature/Livewire/Employer/OnboardingValidationTest.php
+  7ebc58174d08748c 138
+tests/Feature/Employer/EmployerSubscriptionSyncTest.php
+  7ebc58174d08748c 44,70-71
+tests/Feature/LocaleSwitchingTest.php
+  7ebc58174d08748c 120,256,304-325,356-369,394-403,445-458,485-490,492-494,515-529,531
+tests/Feature/Jobs/ExternalApplicationTrackingTest.php
+  7ebc58174d08748c 103
+tests/Feature/Middleware/EnsureEmployerSubscriptionIsActiveTest.php
+  7ebc58174d08748c 62,75,92,215
+tests/Feature/Public/PublicSiteTest.php
+  7ebc58174d08748c 38,150-154,1150-1153,1165,1793,1797,1802,1808,1814,1819
+tests/Feature/RegressionFixesTest.php
+  7ebc58174d08748c 23,36,38,40,46,81,83,85-86
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "6bae306d6d4500350057fb0362407c06674d2280",
+  "prompts": {
+    "7ebc58174d08748c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d02fd-2828-7331-aa68-8daeeef1df02",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 801,
+      "total_deletions": 669,
+      "accepted_lines": 139,
+      "overriden_lines": 0
+    }
+  }
+}

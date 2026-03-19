@@ -1,0 +1,37 @@
+app/Filament/Resources/JobListings/Schemas/JobListingForm.php
+  fba9a6ad5c447fe4 60-65
+tests/Feature/Filament/AdminDashboardStatsTest.php
+  fba9a6ad5c447fe4 121
+tests/Feature/Filament/JobListingResourceTest.php
+  fba9a6ad5c447fe4 45
+app/Filament/Resources/JobListings/Pages/EditJobListing.php
+  fba9a6ad5c447fe4 5,28
+app/Filament/Resources/JobListings/Actions/ImportJobFromUrlAction.php
+  fba9a6ad5c447fe4 8,36-39,55-97
+app/Filament/Resources/JobListings/Pages/ListJobListings.php
+  fba9a6ad5c447fe4 61-90
+app/Filament/Resources/JobListings/Tables/JobListingsTable.php
+  fba9a6ad5c447fe4 12,74-98,141-149,151-155,218-233,325-358
+app/Filament/Widgets/StatsOverview.php
+  fba9a6ad5c447fe4 37-50,97-100
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "79994bf596edeb7eb4ae1dd0b4c177bf5275957e",
+  "prompts": {
+    "fba9a6ad5c447fe4": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d0731-be8d-7873-816b-ae7d9557a2ab",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 204,
+      "total_deletions": 15,
+      "accepted_lines": 204,
+      "overriden_lines": 0
+    }
+  }
+}

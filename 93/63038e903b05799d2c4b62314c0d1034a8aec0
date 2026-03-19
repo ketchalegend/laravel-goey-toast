@@ -1,0 +1,23 @@
+app/Notifications/ApplicantImportInvitationNotification.php
+  0c56e1b0dd3fca85 40-51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "9363038e903b05799d2c4b62314c0d1034a8aec0",
+  "prompts": {
+    "0c56e1b0dd3fca85": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d0653-8af7-7441-859f-8b3c94532bca",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 105,
+      "total_deletions": 6,
+      "accepted_lines": 90,
+      "overriden_lines": 0
+    }
+  }
+}

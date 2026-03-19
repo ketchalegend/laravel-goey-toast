@@ -1,0 +1,39 @@
+app/Livewire/Public/ForCompaniesPage.php
+  12971d09c8578cd0 224
+app/Livewire/Public/Jobs/IndexPage.php
+  12971d09c8578cd0 190
+app/Models/JobListing.php
+  12971d09c8578cd0 5,87-104
+app/Livewire/Public/HomePage.php
+  12971d09c8578cd0 273
+app/Http/Controllers/Public/ExternalApplicationRedirectController.php
+  12971d09c8578cd0 20
+tests/Feature/Public/PublicSiteTest.php
+  12971d09c8578cd0 131-176
+app/Livewire/Public/Jobs/ShowPage.php
+  12971d09c8578cd0 55,190
+app/Livewire/Job/Browse.php
+  12971d09c8578cd0 66
+app/Livewire/Public/Companies/ShowPage.php
+  12971d09c8578cd0 132
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "33bee22502547642f3d82b41ba6e750f15961616",
+  "prompts": {
+    "12971d09c8578cd0": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d05a3-9bf2-7d03-b39c-7a4433560394",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 75,
+      "total_deletions": 49,
+      "accepted_lines": 75,
+      "overriden_lines": 0
+    }
+  }
+}

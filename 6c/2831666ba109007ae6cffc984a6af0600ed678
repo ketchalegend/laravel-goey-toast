@@ -1,0 +1,23 @@
+resources/views/livewire/job/browse.blade.php
+  9e64146a0f67a946 51,71
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "6c2831666ba109007ae6cffc984a6af0600ed678",
+  "prompts": {
+    "9e64146a0f67a946": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d068b-981d-7380-9003-5b417e04921c",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 2,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    }
+  }
+}

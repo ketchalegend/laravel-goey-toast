@@ -1,0 +1,49 @@
+app/Filament/Widgets/JobPerformanceChart.php
+  c987ebfc8296a9e5 11
+app/Filament/Resources/JobListings/JobListingResource.php
+  c987ebfc8296a9e5 103,106,133,139-140
+tests/Feature/RegressionFixesTest.php
+  c987ebfc8296a9e5 28-29
+tests/Unit/Models/UserTest.php
+  c987ebfc8296a9e5 29-30,39-42
+app/Filament/Resources/Users/UserResource.php
+  c987ebfc8296a9e5 151
+tests/Feature/Actions/CreateNewUserTest.php
+  c987ebfc8296a9e5 127-128,181
+tests/Feature/Livewire/Applicant/DashboardTest.php
+  c987ebfc8296a9e5 28
+app/Livewire/Job/Browse.php
+  c987ebfc8296a9e5 67
+app/Console/Commands/TestSendEmails.php
+  c987ebfc8296a9e5 14
+resources/views/livewire/job/browse.blade.php
+  c987ebfc8296a9e5 82
+app/Livewire/SavedJob/Index.php
+  c987ebfc8296a9e5 25
+resources/views/livewire/saved-job/index.blade.php
+  c987ebfc8296a9e5 23-24
+app/Models/JobListing.php
+  c987ebfc8296a9e5 70,75,80
+app/Services/AiHiringInsightsService.php
+  c987ebfc8296a9e5 304
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "936c72b361430abbec69be2c1752f7efbd71293e",
+  "prompts": {
+    "c987ebfc8296a9e5": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2f89a7962ffeyCqe6ZzFu9hlZB",
+        "model": "opencode/mimo-v2-omni-free"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 30,
+      "total_deletions": 544,
+      "accepted_lines": 29,
+      "overriden_lines": 0
+    }
+  }
+}

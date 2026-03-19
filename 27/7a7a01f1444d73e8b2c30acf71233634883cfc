@@ -1,0 +1,27 @@
+.env.example
+  fba9a6ad5c447fe4 82
+tests/Feature/Filament/JobListingResourceTest.php
+  fba9a6ad5c447fe4 8,12,129-158
+app/Filament/Resources/JobListings/Actions/ImportJobFromUrlAction.php
+  fba9a6ad5c447fe4 45-47,49-54,56-57,59-60,62-74,79,95-99
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "277a7a01f1444d73e8b2c30acf71233634883cfc",
+  "prompts": {
+    "fba9a6ad5c447fe4": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d0731-be8d-7873-816b-ae7d9557a2ab",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 100,
+      "total_deletions": 52,
+      "accepted_lines": 74,
+      "overriden_lines": 0
+    }
+  }
+}

@@ -1,0 +1,37 @@
+app/Console/Commands/GenerateSitemap.php
+  7fd9fcab75773b14 5-8,10-11,17-19,21-98
+app/Livewire/Public/Blog/ShowPage.php
+  7fd9fcab75773b14 188-227,231-235
+resources/views/livewire/public/home-page.blade.php
+  7fd9fcab75773b14 202-203,206-207,214-215,218-219
+public/robots.txt
+  7fd9fcab75773b14 2-10
+resources/views/partials/head.blade.php
+  7fd9fcab75773b14 3,6,8-35,46-52
+app/Livewire/Public/Jobs/ShowPage.php
+  7fd9fcab75773b14 204-246,250-253
+app/Livewire/Public/HomePage.php
+  7fd9fcab75773b14 256-272
+routes/console.php
+  7fd9fcab75773b14 34-36
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "8082c8a54ef01c5fb54aca84ed9c08e24a910698",
+  "prompts": {
+    "7fd9fcab75773b14": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2f95bb4eaffeXpxJkuWyt5tqnf",
+        "model": "opencode/mimo-v2-omni-free"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 262,
+      "total_deletions": 25,
+      "accepted_lines": 254,
+      "overriden_lines": 0
+    }
+  }
+}

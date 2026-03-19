@@ -1,0 +1,33 @@
+resources/views/partials/head.blade.php
+  7fd9fcab75773b14 29-30,32,35
+app/Livewire/Public/Events/ShowPage.php
+  7fd9fcab75773b14 480-517,521-524
+bootstrap/app.php
+  7fd9fcab75773b14 19
+app/Livewire/Public/HomePage.php
+  7fd9fcab75773b14 257
+app/Livewire/Public/LegalPage.php
+  7fd9fcab75773b14 80-81,86-88,611-648
+app/Http/Middleware/SecurityHeaders.php
+  7fd9fcab75773b14 1-24
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "f832642ab6da90f88ec83d6e3f99fad479b829b4",
+  "prompts": {
+    "7fd9fcab75773b14": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2f95bb4eaffeXpxJkuWyt5tqnf",
+        "model": "opencode/mimo-v2-omni-free"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 119,
+      "total_deletions": 6,
+      "accepted_lines": 115,
+      "overriden_lines": 0
+    }
+  }
+}

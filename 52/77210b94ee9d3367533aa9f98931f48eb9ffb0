@@ -1,0 +1,29 @@
+tests/Feature/Filament/JobListingResourceTest.php
+  d6f538a0be1fddc2 83-109
+database/migrations/2026_03_19_133812_make_job_listings_employer_id_nullable.php
+  d6f538a0be1fddc2 1-49
+tests/Unit/Models/UserTest.php
+  d6f538a0be1fddc2 6,157-173
+app/Models/User.php
+  d6f538a0be1fddc2 24-41
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "5277210b94ee9d3367533aa9f98931f48eb9ffb0",
+  "prompts": {
+    "d6f538a0be1fddc2": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d0646-3c6b-71f2-a06f-9e8e9b6a2f1c",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 113,
+      "total_deletions": 14,
+      "accepted_lines": 113,
+      "overriden_lines": 0
+    }
+  }
+}

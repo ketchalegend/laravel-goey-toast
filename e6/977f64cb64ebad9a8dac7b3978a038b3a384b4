@@ -1,0 +1,45 @@
+app/Filament/Resources/JobListings/Pages/ViewJobListing.php
+  fba9a6ad5c447fe4 70-73
+app/Livewire/Public/HomePage.php
+  7fd9fcab75773b14 257
+app/Console/Commands/GenerateSitemap.php
+  7fd9fcab75773b14 50,57,59,65,67,69,75,77,85,88,90
+tests/Feature/Filament/JobListingResourceTest.php
+  fba9a6ad5c447fe4 48-63
+resources/views/livewire/public/home-page.blade.php
+  fba9a6ad5c447fe4 84
+  7fd9fcab75773b14 387,505,561,591,636,643,655
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "e6977f64cb64ebad9a8dac7b3978a038b3a384b4",
+  "prompts": {
+    "7fd9fcab75773b14": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2f95bb4eaffeXpxJkuWyt5tqnf",
+        "model": "opencode/mimo-v2-omni-free"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 68,
+      "total_deletions": 66,
+      "accepted_lines": 49,
+      "overriden_lines": 0
+    },
+    "fba9a6ad5c447fe4": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d0731-be8d-7873-816b-ae7d9557a2ab",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 21,
+      "total_deletions": 71,
+      "accepted_lines": 21,
+      "overriden_lines": 0
+    }
+  }
+}

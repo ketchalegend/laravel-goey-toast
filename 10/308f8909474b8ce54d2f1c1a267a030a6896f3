@@ -1,0 +1,25 @@
+config/features.php
+  f5c36833b06fc725 4
+tests/Feature/FeaturesConfigDefaultTest.php
+  f5c36833b06fc725 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "10308f8909474b8ce54d2f1c1a267a030a6896f3",
+  "prompts": {
+    "f5c36833b06fc725": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d058a-3402-7ad1-b4a2-55522635bf60",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 6,
+      "total_deletions": 2,
+      "accepted_lines": 6,
+      "overriden_lines": 0
+    }
+  }
+}

@@ -1,0 +1,25 @@
+app/Http/Middleware/ValidateTurnstile.php
+  78b10d360b6984f4 5,8,14-18,25-41
+bootstrap/app.php
+  78b10d360b6984f4 20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "b45f8874c5f62a9707fc3850f25dd39f8cdc3330",
+  "prompts": {
+    "78b10d360b6984f4": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2f5d6025cffel26es10Ftu4ah6",
+        "model": "opencode/mimo-v2-omni-free"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 44,
+      "total_deletions": 62,
+      "accepted_lines": 26,
+      "overriden_lines": 0
+    }
+  }
+}

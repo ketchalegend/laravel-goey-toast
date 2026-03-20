@@ -1,0 +1,25 @@
+resources/views/livewire/job/show.blade.php
+  c91a5960e4eb2232 89
+resources/views/livewire/event/show.blade.php
+  c91a5960e4eb2232 50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "3b2f512b58478bf3d4917b596feecd48aad3cb29",
+  "prompts": {
+    "c91a5960e4eb2232": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2f3b01bbdffeDHBauUaDEYsOsO",
+        "model": "opencode/claude-opus-4-5"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 2,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    }
+  }
+}

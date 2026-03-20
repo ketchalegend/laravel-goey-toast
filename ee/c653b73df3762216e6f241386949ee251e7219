@@ -1,0 +1,33 @@
+database/migrations/2026_03_20_180559_add_csv_import_invited_at_to_users_table.php
+  39e3672f621edc08 5,16,18-22,31
+tests/Feature/ApplicantCsvImportTest.php
+  39e3672f621edc08 4,66,74,95,98-133,135,210-242
+app/Jobs/ImportApplicantCsvJob.php
+  39e3672f621edc08 5-7,10,17,19-41,43-70,74,76-104,106-116
+app/Models/User.php
+  39e3672f621edc08 135
+app/Services/ApplicantCsvImportService.php
+  39e3672f621edc08 167-168,171-173,505-522
+app/Filament/Resources/Profiles/Pages/ListProfiles.php
+  39e3672f621edc08 44-48,52,56-58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "eec653b73df3762216e6f241386949ee251e7219",
+  "prompts": {
+    "39e3672f621edc08": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2f39455d7ffeRrvosJC42j82XH",
+        "model": "opencode/claude-opus-4-5"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 266,
+      "total_deletions": 85,
+      "accepted_lines": 216,
+      "overriden_lines": 0
+    }
+  }
+}

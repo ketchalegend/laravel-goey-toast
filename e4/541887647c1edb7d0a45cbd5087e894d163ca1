@@ -1,0 +1,53 @@
+resources/views/livewire/public/events/show-page.blade.php
+  8a8951bdbd180bd4 67-71,79-80,91-95,97-99,101-102,107-122,125-128,130-152,154-166,171-178,181,193-199,204-213,355,360,363,365-367,369,391-394,396-399,402-403
+app/Filament/Resources/Events/Schemas/EventForm.php
+  c91a5960e4eb2232 334-345,377-388
+resources/views/livewire/public/events/partials/adan-career-day-layout.blade.php
+  c91a5960e4eb2232 394-395
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "e4541887647c1edb7d0a45cbd5087e894d163ca1",
+  "prompts": {
+    "837986326e7b71e5": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d0bf1-13ee-7f23-a1d8-455eb63d4596",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 8,
+      "total_deletions": 0,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    },
+    "8a8951bdbd180bd4": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d0bf2-e6fd-7f23-b52d-c6741d74b16d",
+        "model": "unknown"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 136,
+      "total_deletions": 20,
+      "accepted_lines": 116,
+      "overriden_lines": 13
+    },
+    "c91a5960e4eb2232": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2f3b01bbdffeDHBauUaDEYsOsO",
+        "model": "opencode/claude-opus-4-5"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 28,
+      "total_deletions": 7,
+      "accepted_lines": 26,
+      "overriden_lines": 0
+    }
+  }
+}

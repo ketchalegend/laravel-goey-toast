@@ -1,0 +1,23 @@
+app/Filament/Resources/Profiles/Pages/ListProfiles.php
+  f8fd99831fd153b4 6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "b4111eed097b2b7d271fe9000189eaeb5a558024",
+  "prompts": {
+    "f8fd99831fd153b4": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2f3855e76ffelaEBtoTISMlkn2",
+        "model": "opencode/claude-opus-4-5"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 0,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    }
+  }
+}

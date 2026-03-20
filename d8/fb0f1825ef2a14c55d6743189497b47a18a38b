@@ -1,0 +1,37 @@
+app/Filament/Resources/JobListings/Actions/ImportJobFromUrlAction.php
+  78b10d360b6984f4 9,27,37,45-68,70,74,76-80,83,86,89-94,104-112,117-121,124-125,127-128,137-138
+app/Filament/Resources/Users/Pages/EditUser.php
+  78b10d360b6984f4 20-41,43-44,50
+app/Services/JobScraperService.php
+  78b10d360b6984f4 54-59
+app/Filament/Resources/JobListings/Tables/JobListingsTable.php
+  78b10d360b6984f4 82-90,92,96,100,166-188
+app/Ai/Agents/JobImportAgent.php
+  78b10d360b6984f4 21-50
+app/Livewire/Public/ForCompaniesPage.php
+  78b10d360b6984f4 63-65
+resources/views/livewire/public/jobs/show-page.blade.php
+  78b10d360b6984f4 53
+app/Services/JobImportService.php
+  78b10d360b6984f4 51-52,55-59,61-71
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "d8fb0f1825ef2a14c55d6743189497b47a18a38b",
+  "prompts": {
+    "78b10d360b6984f4": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2f5d6025cffel26es10Ftu4ah6",
+        "model": "opencode/mimo-v2-omni-free"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 310,
+      "total_deletions": 302,
+      "accepted_lines": 194,
+      "overriden_lines": 6
+    }
+  }
+}

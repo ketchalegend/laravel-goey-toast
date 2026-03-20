@@ -1,0 +1,25 @@
+app/Services/JobScraperService.php
+  8e891912b5b4b3d7 7,15-31,38-208
+tests/Feature/JobScraperTest.php
+  8e891912b5b4b3d7 3-4,6-101,103-110
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "93c007de4ecf6393a4335ca7df2aa32ef6ad7b5f",
+  "prompts": {
+    "8e891912b5b4b3d7": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2f45c557dffe7SWvfauHq6i20w",
+        "model": "opencode/mimo-v2-omni-free"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 300,
+      "total_deletions": 6,
+      "accepted_lines": 296,
+      "overriden_lines": 0
+    }
+  }
+}

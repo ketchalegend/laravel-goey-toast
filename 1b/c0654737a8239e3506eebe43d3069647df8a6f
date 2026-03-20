@@ -1,0 +1,35 @@
+app/Models/User.php
+  78b10d360b6984f4 223-227
+app/Filament/Resources/Users/UserResource.php
+  78b10d360b6984f4 65-69,90-94,115-118,135-138,165-168,189-195
+app/Filament/Resources/Users/Pages/EditUser.php
+  78b10d360b6984f4 6,8,19-28
+resources/views/livewire/public/home-page.blade.php
+  78b10d360b6984f4 680
+resources/views/livewire/employer/plan-required.blade.php
+  78b10d360b6984f4 28
+resources/views/livewire/employer/dashboard.blade.php
+  78b10d360b6984f4 63
+resources/views/livewire/public/events/index-page.blade.php
+  78b10d360b6984f4 53,300
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "1bc0654737a8239e3506eebe43d3069647df8a6f",
+  "prompts": {
+    "78b10d360b6984f4": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2f5d6025cffel26es10Ftu4ah6",
+        "model": "opencode/mimo-v2-omni-free"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 53,
+      "total_deletions": 184,
+      "accepted_lines": 51,
+      "overriden_lines": 0
+    }
+  }
+}

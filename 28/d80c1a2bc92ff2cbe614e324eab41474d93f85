@@ -1,0 +1,27 @@
+resources/css/app.css
+  b27a53f53b2b7a6e 79-84,89-93,95
+resources/views/livewire/public/for-companies-page.blade.php
+  b27a53f53b2b7a6e 95,100,108,111,116,121,123,146,150,159,164,172,177,185,188,193,198,200,223,227,236,241
+resources/views/public/outbound-redirect.blade.php
+  b27a53f53b2b7a6e 11,14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "28d80c1a2bc92ff2cbe614e324eab41474d93f85",
+  "prompts": {
+    "b27a53f53b2b7a6e": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "27112112-2631-438d-8df5-6537b72ec0ca",
+        "model": "copilot/auto"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 54,
+      "total_deletions": 37,
+      "accepted_lines": 36,
+      "overriden_lines": 3
+    }
+  }
+}

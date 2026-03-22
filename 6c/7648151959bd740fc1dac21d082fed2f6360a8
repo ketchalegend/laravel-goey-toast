@@ -1,0 +1,61 @@
+resources/views/livewire/public/jobs/show-page.blade.php
+  bcc3cc07d214f412 110
+tests/Feature/Employer/EmployerJobAiAssistantTest.php
+  e33083a67469ab31 42,53,92,98
+app/Services/AiHiringInsightsService.php
+  e33083a67469ab31 27
+  bcc3cc07d214f412 102,157,233,235
+app/Services/JobImportService.php
+  e33083a67469ab31 64
+app/Filament/Resources/JobListings/Actions/ImportJobFromUrlAction.php
+  bcc3cc07d214f412 90,104
+database/migrations/2026_03_22_123457_migrate_structured_job_fields_to_description.php
+  e33083a67469ab31 4,13-24,26-28,30-33,38-108,113
+tests/Feature/Public/PublicSiteTest.php
+  bcc3cc07d214f412 539,543,562
+app/Livewire/Employer/Job/Create.php
+  bcc3cc07d214f412 199
+database/migrations/2026_03_22_124717_drop_structured_job_fields_from_job_listings_table.php
+  e33083a67469ab31 15-21,31-35
+tests/Unit/Services/JobImportServiceTest.php
+  e33083a67469ab31 39
+tests/Feature/Filament/JobListingResourceTest.php
+  bcc3cc07d214f412 35,42
+tests/Feature/Public/PublicJobsShowPageGoeyToastTest.php
+  bcc3cc07d214f412 58
+app/Livewire/Employer/Job/Edit.php
+  bcc3cc07d214f412 176
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "6c7648151959bd740fc1dac21d082fed2f6360a8",
+  "prompts": {
+    "bcc3cc07d214f412": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2ea6f2816ffeqaSpMGmuDD5Cag",
+        "model": "opencode/mimo-v2-omni-free"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 130,
+      "total_deletions": 427,
+      "accepted_lines": 22,
+      "overriden_lines": 0
+    },
+    "e33083a67469ab31": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "7d6ba430-b5c9-44e8-a1f7-20dde9f7a123",
+        "model": "copilot/auto"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 116,
+      "total_deletions": 361,
+      "accepted_lines": 111,
+      "overriden_lines": 0
+    }
+  }
+}

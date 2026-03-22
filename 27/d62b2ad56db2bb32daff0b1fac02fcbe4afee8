@@ -1,0 +1,70 @@
+app/Http/Controllers/Public/ExternalApplicationRedirectController.php
+  b27a53f53b2b7a6e 47
+routes/web.php
+  481360ed04589df4 110-115
+tests/Unit/Models/UserTest.php
+  481360ed04589df4 28,37-38
+resources/views/livewire/employer/job/show.blade.php
+  b27a53f53b2b7a6e 124,126
+app/Models/User.php
+  481360ed04589df4 72
+app/Livewire/Public/Jobs/ShowPage.php
+  b27a53f53b2b7a6e 163,363
+app/Filament/Resources/Users/Tables/UsersTable.php
+  481360ed04589df4 15,54-55,57-58,60-66,68-72
+tests/Feature/Jobs/ExternalApplicationTrackingTest.php
+  b27a53f53b2b7a6e 35,92,121,132
+app/Filament/Resources/Users/Schemas/UserForm.php
+  481360ed04589df4 8,33-41,50-55
+resources/views/public/outbound-redirect.blade.php
+  b27a53f53b2b7a6e 22,30-41
+  848877b0adad48a6 7,9-12,14-15,19-20,24
+app/Http/Controllers/Public/OutboundRedirectController.php
+  b27a53f53b2b7a6e 21,27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "27d62b2ad56db2bb32daff0b1fac02fcbe4afee8",
+  "prompts": {
+    "481360ed04589df4": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2eb4446f5ffevNlKRaoff0zDGA",
+        "model": "opencode/mimo-v2-omni-free"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 64,
+      "total_deletions": 75,
+      "accepted_lines": 46,
+      "overriden_lines": 0
+    },
+    "848877b0adad48a6": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "ffdca566-7fc8-4f66-a507-b6470feecf20",
+        "model": "copilot/auto"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 34,
+      "total_deletions": 58,
+      "accepted_lines": 21,
+      "overriden_lines": 0
+    },
+    "b27a53f53b2b7a6e": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "27112112-2631-438d-8df5-6537b72ec0ca",
+        "model": "copilot/auto"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 61,
+      "total_deletions": 93,
+      "accepted_lines": 25,
+      "overriden_lines": 0
+    }
+  }
+}

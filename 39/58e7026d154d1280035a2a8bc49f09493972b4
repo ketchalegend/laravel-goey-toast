@@ -1,0 +1,61 @@
+app/Support/PublicSite/helpers.php
+  50b3488cdef7f047 10-19
+tests/Feature/Public/ContentEditorTest.php
+  50b3488cdef7f047 28-45,78,105,169,315,334,357,416,445
+app/Http/Controllers/Dev/ContentEditorController.php
+  50b3488cdef7f047 64-67
+app/Filament/Resources/SiteSettings/Schemas/SiteSettingForm.php
+  50b3488cdef7f047 5,7,91-112
+config/features.php
+  50b3488cdef7f047 5-11
+resources/views/livewire/public/events/show-page.blade.php
+  93ea5ce0c6270ad5 161,163-167,169-174,184-189
+  a3f6a256790d69cf 209
+  50b3488cdef7f047 198-205,211
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.17",
+  "base_commit_sha": "3958e7026d154d1280035a2a8bc49f09493972b4",
+  "prompts": {
+    "50b3488cdef7f047": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2e3ff707cffesjtcO51zq1JaQ5",
+        "model": "opencode/mimo-v2-omni-free"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 88,
+      "total_deletions": 12,
+      "accepted_lines": 80,
+      "overriden_lines": 0
+    },
+    "93ea5ce0c6270ad5": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "323ee1d7-cfeb-43b2-94bc-ddd3ec76007d",
+        "model": "copilot/auto"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 30,
+      "total_deletions": 6,
+      "accepted_lines": 18,
+      "overriden_lines": 0
+    },
+    "a3f6a256790d69cf": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "f0dc651b-0c04-498f-9f7c-19d1a407d3d4",
+        "model": "copilot/auto"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 11,
+      "total_deletions": 5,
+      "accepted_lines": 8,
+      "overriden_lines": 0
+    }
+  }
+}

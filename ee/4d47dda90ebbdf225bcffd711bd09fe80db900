@@ -1,0 +1,42 @@
+app/Actions/Fortify/CreateNewUser.php
+  93ea5ce0c6270ad5 38-41
+app/Rules/Recaptcha.php
+  93ea5ce0c6270ad5 14-18
+app/Http/Middleware/ValidateTurnstile.php
+  93ea5ce0c6270ad5 25-28,30-31,34
+resources/views/pages/auth/register.blade.php
+  93ea5ce0c6270ad5 123,146
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.17",
+  "base_commit_sha": "ee4d47dda90ebbdf225bcffd711bd09fe80db900",
+  "prompts": {
+    "93ea5ce0c6270ad5": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "323ee1d7-cfeb-43b2-94bc-ddd3ec76007d",
+        "model": "copilot/auto"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 30,
+      "total_deletions": 17,
+      "accepted_lines": 21,
+      "overriden_lines": 0
+    },
+    "a3f6a256790d69cf": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "f0dc651b-0c04-498f-9f7c-19d1a407d3d4",
+        "model": "copilot/auto"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 8,
+      "total_deletions": 3,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    }
+  }
+}

@@ -1,0 +1,59 @@
+app/Livewire/Public/Jobs/IndexPage.php
+  f75ba446d7edd32e 127
+app/Filament/Resources/Companies/CompanyResource.php
+  f75ba446d7edd32e 39,314-318
+  50b3488cdef7f047 211-216
+app/Livewire/Public/ForCompaniesPage.php
+  50b3488cdef7f047 139,145
+database/migrations/2026_03_23_190739_add_is_featured_to_companies_table.php
+  50b3488cdef7f047 15,25
+resources/views/livewire/public/for-companies-page.blade.php
+  50b3488cdef7f047 127,129,206,208
+app/Livewire/Public/HomePage.php
+  50b3488cdef7f047 199
+resources/views/livewire/public/jobs/index-page.blade.php
+  f75ba446d7edd32e 50,143,146
+  50b3488cdef7f047 83
+resources/views/livewire/public/home-page.blade.php
+  50b3488cdef7f047 99,545
+  f75ba446d7edd32e 543
+app/Models/Company.php
+  50b3488cdef7f047 52,75,271-275
+tests/Feature/Public/PublicSiteTest.php
+  f75ba446d7edd32e 294-296,298,307,325-339,342-360
+app/Filament/Resources/EmployerPackages/Tables/EmployerPackagesTable.php
+  50b3488cdef7f047 44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.17",
+  "base_commit_sha": "12ebdee7c056afa79023ec86747c74cc515ea465",
+  "prompts": {
+    "50b3488cdef7f047": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_2e3ff707cffesjtcO51zq1JaQ5",
+        "model": "opencode/mimo-v2-omni-free"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 28,
+      "total_deletions": 35,
+      "accepted_lines": 26,
+      "overriden_lines": 0
+    },
+    "f75ba446d7edd32e": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "ad5eaa0f-5efd-4935-bbb8-5526d43e6bf8",
+        "model": "copilot/auto"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 53,
+      "total_deletions": 9,
+      "accepted_lines": 52,
+      "overriden_lines": 0
+    }
+  }
+}

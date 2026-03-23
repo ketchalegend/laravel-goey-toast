@@ -1,0 +1,39 @@
+app/Actions/Fortify/CreateNewUser.php
+  f75ba446d7edd32e 93
+app/Http/Middleware/EnsureOnboardingCompleted.php
+  f75ba446d7edd32e 26-27
+routes/web.php
+  f75ba446d7edd32e 101-109
+tests/Feature/Http/Responses/AuthResponsesTest.php
+  f75ba446d7edd32e 50,163,237,314,317
+tests/Feature/Http/LoginRegisterResponseTest.php
+  f75ba446d7edd32e 101,122,125,142,185,206,209,225
+app/Http/Responses/RegisterResponse.php
+  f75ba446d7edd32e 26
+app/Livewire/Employer/Onboarding.php
+  f75ba446d7edd32e 63
+app/Http/Responses/LoginResponse.php
+  f75ba446d7edd32e 26
+tests/Feature/Employer/EmployerInviteOnboardingTest.php
+  f75ba446d7edd32e 45,57,65-66
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.17",
+  "base_commit_sha": "cd2b617bb3c733997c4344d6bb5b6ea84661f8e8",
+  "prompts": {
+    "f75ba446d7edd32e": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "ad5eaa0f-5efd-4935-bbb8-5526d43e6bf8",
+        "model": "unknown"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 38,
+      "total_deletions": 72,
+      "accepted_lines": 33,
+      "overriden_lines": 0
+    }
+  }
+}

@@ -1,0 +1,40 @@
+resources/views/employer/cv-database/index.blade.php
+  d83b99fe80a16fbb 126,137-138,140-141,147,150-151,153-154,156-158,160-164,166-172,174-176,181,185,187
+app/Http/Controllers/Employer/CvDatabaseController.php
+  d83b99fe80a16fbb 12,21,23,33-34,151-184,342-353
+routes/web.php
+  d83b99fe80a16fbb 133
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.17",
+  "base_commit_sha": "d784627a7487c0bf8f2a1be3709c85c9df1525e3",
+  "prompts": {
+    "aa62e2694fa7a690": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "f2874c00-61c0-4e1b-a16b-46862c7096c4",
+        "model": "copilot/auto"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 1,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    },
+    "d83b99fe80a16fbb": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "4509d980-1cc6-496e-98cf-da9ce1072d8f",
+        "model": "copilot/auto"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 92,
+      "total_deletions": 39,
+      "accepted_lines": 84,
+      "overriden_lines": 0
+    }
+  }
+}

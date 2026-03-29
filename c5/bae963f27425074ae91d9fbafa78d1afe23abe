@@ -1,0 +1,25 @@
+routes/console.php
+  c5bb172e9713157a 14-15
+tests/Feature/RegressionFixesTest.php
+  c5bb172e9713157a 13-14,123-162
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.20",
+  "base_commit_sha": "c5bae963f27425074ae91d9fbafa78d1afe23abe",
+  "prompts": {
+    "c5bb172e9713157a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d39e4-212c-7351-8bf4-163f87d34c9e",
+        "model": "gpt-5.4-mini"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>",
+      "messages": [],
+      "total_additions": 46,
+      "total_deletions": 2,
+      "accepted_lines": 46,
+      "overriden_lines": 0
+    }
+  }
+}

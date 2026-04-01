@@ -1,0 +1,25 @@
+tests/Feature/Auth/RegistrationTest.php
+  83730912da49900b 3-4,26-45
+app/Actions/Fortify/CreateNewUser.php
+  83730912da49900b 13,15-16,30-31,88-107
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.3",
+  "base_commit_sha": "a0b7401942162905cf902454d581f365d2c8dc78",
+  "prompts": {
+    "83730912da49900b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d47f5-c1d0-7c93-b021-d05a47940a9a",
+        "model": "gpt-5.4-mini"
+      },
+      "human_author": "Ketchalegend",
+      "messages": [],
+      "total_additions": 48,
+      "total_deletions": 14,
+      "accepted_lines": 48,
+      "overriden_lines": 0
+    }
+  }
+}

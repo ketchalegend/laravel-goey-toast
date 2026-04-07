@@ -1,0 +1,34 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.5",
+  "base_commit_sha": "53fa4ee3c26c438ff6535b79f7ac3648656bd352",
+  "prompts": {
+    "1c242f0aa3397897": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d4ea4-0018-7373-bee0-fb4714d59596",
+        "model": "gpt-5.4-mini"
+      },
+      "human_author": "Ketchalegend",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    },
+    "9f925a20ecf19026": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d67c1-4bae-78a1-9b5a-44724f884d60",
+        "model": "gpt-5.4-mini"
+      },
+      "human_author": "Ketchalegend",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    }
+  }
+}

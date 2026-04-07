@@ -1,0 +1,23 @@
+tests/Feature/RegressionFixesTest.php
+  1c242f0aa3397897 99-100,105,114-120,132
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.5",
+  "base_commit_sha": "3737e7f4ecd99fb8172be9c56a5eff1d63381a67",
+  "prompts": {
+    "1c242f0aa3397897": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d4ea4-0018-7373-bee0-fb4714d59596",
+        "model": "gpt-5.4-mini"
+      },
+      "human_author": "Ketchalegend",
+      "messages": [],
+      "total_additions": 72,
+      "total_deletions": 9,
+      "accepted_lines": 50,
+      "overriden_lines": 4
+    }
+  }
+}

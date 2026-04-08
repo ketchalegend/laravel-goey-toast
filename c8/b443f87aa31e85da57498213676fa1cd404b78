@@ -1,0 +1,29 @@
+app/Livewire/Employer/Company/Edit.php
+  945e613b365ebfe1 7,106,135,181
+tests/Feature/Employer/EmployerDashboardTest.php
+  945e613b365ebfe1 67-102
+resources/views/livewire/public/companies/show-page.blade.php
+  945e613b365ebfe1 2-3,34
+resources/views/livewire/employer/company/edit.blade.php
+  945e613b365ebfe1 194
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.5",
+  "base_commit_sha": "c8b443f87aa31e85da57498213676fa1cd404b78",
+  "prompts": {
+    "945e613b365ebfe1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d6d2b-527f-7271-9204-fe6b1f422880",
+        "model": "gpt-5.4-mini"
+      },
+      "human_author": "Ketchalegend",
+      "messages": [],
+      "total_additions": 61,
+      "total_deletions": 87,
+      "accepted_lines": 44,
+      "overriden_lines": 0
+    }
+  }
+}

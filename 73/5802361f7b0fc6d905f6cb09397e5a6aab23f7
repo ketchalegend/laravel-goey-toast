@@ -1,0 +1,78 @@
+config/livewire.php
+  0789728da82896d0 133
+database/migrations/2026_04_20_225620_backfill_adan_career_day_agenda_rooms.php
+  0789728da82896d0 1-64
+database/seeders/AdanCareerDayProgramSeeder.php
+  0789728da82896d0 41,51
+database/migrations/2026_04_20_224353_add_agenda_rooms_to_events_table.php
+  0789728da82896d0 1-28
+tests/Feature/Public/PublicSiteTest.php
+  945e613b365ebfe1 39,50-52
+resources/views/livewire/public/events/partials/adan-career-day-layout.blade.php
+  0789728da82896d0 315-351,359,368,370-374,376
+tests/Feature/Filament/EventFormSchemaTest.php
+  0789728da82896d0 7,30,34,38,44-73
+app/Livewire/Applicant/Onboarding.php
+  0789728da82896d0 207
+app/Filament/Resources/Events/Schemas/EventForm.php
+  0789728da82896d0 309-330,344-348,539-586
+tests/Feature/CvSettingsTest.php
+  0789728da82896d0 1-47
+tests/Feature/Public/AdanCareerDayEventTest.php
+  0789728da82896d0 92-97,119-126,137,141,145,178-228
+tests/Feature/ResumeBuilderTest.php
+  0789728da82896d0 23,29
+app/Livewire/Settings/CvSettings.php
+  0789728da82896d0 15-16,28,50-72
+resources/views/livewire/settings/cv-settings.blade.php
+  0789728da82896d0 14-19,22-30
+resources/views/livewire/applicant/onboarding.blade.php
+  0789728da82896d0 255,257
+resources/views/livewire/applicant/resume-builder.blade.php
+  0789728da82896d0 305
+app/Livewire/Applicant/ResumeBuilder.php
+  0789728da82896d0 204,224
+app/Livewire/Public/HomePage.php
+  945e613b365ebfe1 23,226,287-314
+resources/views/livewire/profile/edit.blade.php
+  0789728da82896d0 94
+app/Models/Event.php
+  0789728da82896d0 31,87
+app/Livewire/Profile/Edit.php
+  0789728da82896d0 79
+resources/css/app.css
+  0789728da82896d0 110-115
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.2",
+  "base_commit_sha": "735802361f7b0fc6d905f6cb09397e5a6aab23f7",
+  "prompts": {
+    "0789728da82896d0": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019dac99-ae5b-7b92-ac74-744904030bb6",
+        "model": "gpt-5.4"
+      },
+      "human_author": "Ketchalegend",
+      "messages": [],
+      "total_additions": 442,
+      "total_deletions": 39,
+      "accepted_lines": 430,
+      "overriden_lines": 0
+    },
+    "945e613b365ebfe1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d6d2b-527f-7271-9204-fe6b1f422880",
+        "model": "gpt-5.4-mini"
+      },
+      "human_author": "Ketchalegend",
+      "messages": [],
+      "total_additions": 42,
+      "total_deletions": 7,
+      "accepted_lines": 42,
+      "overriden_lines": 0
+    }
+  }
+}

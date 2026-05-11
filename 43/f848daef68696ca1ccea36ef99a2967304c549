@@ -1,0 +1,19 @@
+README.md
+  s_b3a3f0bc5a77bc::t_b2aae484911296 1-101
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "43f848daef68696ca1ccea36ef99a2967304c549",
+  "prompts": {},
+  "sessions": {
+    "s_b3a3f0bc5a77bc": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e13d4-b2fa-7522-ad65-0d0b70daa414",
+        "model": "gpt-5.5"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>"
+    }
+  }
+}

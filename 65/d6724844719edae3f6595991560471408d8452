@@ -1,0 +1,21 @@
+tests/Unit/Models/CompanyTest.php
+  s_4307b845743b29::t_953732fa9af47c 337,354-393
+app/Models/Company.php
+  s_4307b845743b29::t_7df47cca5922af 121-122
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.8",
+  "base_commit_sha": "65d6724844719edae3f6595991560471408d8452",
+  "prompts": {},
+  "sessions": {
+    "s_4307b845743b29": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e3b1a-ebd2-75b1-9d9b-73e80cbe5f21",
+        "model": "gpt-5.5"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>"
+    }
+  }
+}

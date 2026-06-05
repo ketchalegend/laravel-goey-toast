@@ -1,0 +1,32 @@
+resources/views/livewire/public/for-companies-page.blade.php
+  s_cbffcb1cdd05a6::t_b87d374b2cc94b 179
+tests/Feature/Public/PublicSiteTest.php
+  s_cbffcb1cdd05a6::t_8eb98abd034285 1318-1319
+  s_cbffcb1cdd05a6::t_3d9a2e99e938b5 1329-1330,1335-1356,1363-1364,1367
+  s_cbffcb1cdd05a6::t_6d53efac51edf5 1314-1317,1320-1328,1331-1334,1357-1362,1365,1368-1387
+  s_cbffcb1cdd05a6::t_15a244906437be 1366
+  s_cbffcb1cdd05a6::t_dbbfe58d9378e0 1889-1905
+resources/views/livewire/public/events/index-page.blade.php
+  s_cbffcb1cdd05a6::t_c482822c7cde01 191-192
+  s_cbffcb1cdd05a6::t_b468cd421f5545 267
+app/Livewire/Public/Events/IndexPage.php
+  s_cbffcb1cdd05a6::t_59a424479c75c1 143-152
+app/Livewire/Public/ForCompaniesPage.php
+  s_cbffcb1cdd05a6::t_bb4b60d5a5c8ce 139,143-146,150-157
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "a065fc14ce6e8ab457e1d8373979294b30421cf3",
+  "prompts": {},
+  "sessions": {
+    "s_cbffcb1cdd05a6": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "5cf1e9e4-5e50-4761-ad28-0b2aa6da7676",
+        "model": "composer-2.5"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+app/Notifications/CvAccessedNotification.php
+  s_cbffcb1cdd05a6::t_ef698d5f863b62 40
+resources/views/livewire/public/for-companies-page.blade.php
+  s_cbffcb1cdd05a6::t_ecef6dba38c9b0 80-86
+  s_cbffcb1cdd05a6::t_72da7641009345 180
+tests/Feature/Public/PublicSiteTest.php
+  s_cbffcb1cdd05a6::t_57d79a6b9ee440 1801-1825
+tests/Unit/Notifications/CvAccessedNotificationTest.php
+  s_cbffcb1cdd05a6::t_f4a25e20ea8a63 1-2,20
+  s_cbffcb1cdd05a6::t_4221c1dd0ca245 3-5,10-19
+  s_cbffcb1cdd05a6::t_a146359bb1b225 6-9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "cc247d4c01ccb6570eed5226e24386ac3e60bcf5",
+  "prompts": {},
+  "sessions": {
+    "s_cbffcb1cdd05a6": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "5cf1e9e4-5e50-4761-ad28-0b2aa6da7676",
+        "model": "composer-2.5"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>"
+    }
+  }
+}

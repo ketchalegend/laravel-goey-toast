@@ -1,0 +1,380 @@
+app/Enums/InquirySource.php
+  s_9ccdf42cf27ff8::t_1a0ef97fcda20a 1-28
+app/Http/Requests/StoreCompanyInquiryRequest.php
+  s_9ccdf42cf27ff8::t_8e2544a6303538 5-6,9,15,24-36
+  s_9ccdf42cf27ff8::t_9d56738b78189a 1-4,7-8,10-14,16-23,37-39
+app/Http/Middleware/SecurityHeaders.php
+  s_9ccdf42cf27ff8::t_02210b4432dc06 22-25,28-58
+resources/views/livewire/applicant/messages/index.blade.php
+  s_9ccdf42cf27ff8::t_1a3f58936608be 1-10,13-49
+  s_9ccdf42cf27ff8::t_f0e0200315b7a5 11-12
+  s_9ccdf42cf27ff8::t_b444ba70dd205c 50
+app/Models/CvMatchResult.php
+  s_9ccdf42cf27ff8::t_6b9ef37b4865bc 17-18,27-28
+app/Livewire/Public/ProductsPage.php
+  s_9ccdf42cf27ff8::t_4127a28e41d89e 5-13,18-62,64-149
+  s_9ccdf42cf27ff8::t_7a79dca41c8f45 1-4,14-17,63,150-151
+tests/Feature/Employer/TrixAttachmentTest.php
+  s_9ccdf42cf27ff8::t_1e8546c58232f6 1-9,11,13-19,21-22,26-31,34-63,65-66,70,72-77,79-80,84-85,102-105
+  s_9ccdf42cf27ff8::t_1f5cba134bd0ff 10,12,20,23-25,32-33,64,67-69,71,78,81-83,86-101
+database/migrations/2026_06_26_111310_add_work_model_and_relocation_to_profiles.php
+  s_9ccdf42cf27ff8::t_18e855e217641f 1-14,17-25,27-29
+  s_9ccdf42cf27ff8::t_e79dbf25fb9731 15-16,26
+app/Filament/Resources/CompanyInquiries/Pages/EditCompanyInquiry.php
+  s_9ccdf42cf27ff8::t_9d56738b78189a 1-19
+tests/Feature/CompanyInquiryTest.php
+  s_9ccdf42cf27ff8::t_de85b23593108f 1-53
+tests/Feature/PackageGatingTest.php
+  s_9ccdf42cf27ff8::t_044d9bfa9716e2 1-67
+app/Enums/WorkModel.php
+  s_9ccdf42cf27ff8::t_f9fcd3790472eb 1-44
+app/Filament/Resources/CompanyInquiries/Tables/CompanyInquiriesTable.php
+  s_9ccdf42cf27ff8::t_9d56738b78189a 1-4,7-9,12-18,20,43-44,47-57
+  s_9ccdf42cf27ff8::t_5e14d25d6da75e 5-6,10-11,19,21-42,45-46
+app/Livewire/Applicant/Messages/Index.php
+  s_9ccdf42cf27ff8::t_3c2a34637c2757 5-6,8,12-22,25-33
+  s_9ccdf42cf27ff8::t_b444ba70dd205c 1-4,7,9-11,23-24,34-35
+app/Notifications/RecruiterContactNotification.php
+  s_9ccdf42cf27ff8::t_f9658dbe694d0f 1-4,7-11,13-14,16,18-23,25-28,31,40-46,53-54
+  s_9ccdf42cf27ff8::t_b2a65ea0252a88 5-6,12,15,17,24,29-30,32-39,47-52
+app/Enums/MatchOutcome.php
+  s_9ccdf42cf27ff8::t_d26cddd082a2cd 1-37
+app/Jobs/NotifyUsersOfWebinar.php
+  s_9ccdf42cf27ff8::t_cd13b89362b3be 5-8,16-17,20-31
+  s_9ccdf42cf27ff8::t_a2a72035005c57 1-4,9-15,18-19,32-33
+app/Notifications/CvAccessedNotification.php
+  s_9ccdf42cf27ff8::t_8a41791c473a59 29
+  s_9ccdf42cf27ff8::t_99c1a7d94507ba 53-58
+  s_9ccdf42cf27ff8::t_2da61921671970 6,13
+tests/Feature/Employer/CvDatabaseFeatureTest.php
+  s_9ccdf42cf27ff8::t_d52ea768ae50bd 343-397
+  s_9ccdf42cf27ff8::t_c35cf24abe2876 398-518
+  s_9ccdf42cf27ff8::t_be3c4efa903c77 12-13
+.gitignore
+  s_9ccdf42cf27ff8::t_2df893c6e745e4 61-63
+resources/views/livewire/public/products-page.blade.php
+  s_9ccdf42cf27ff8::t_b3dd8a3c79a7a0 1-259,262-263
+  s_9ccdf42cf27ff8::t_38f0205477e1f5 260-261
+  s_9ccdf42cf27ff8::t_7a79dca41c8f45 264
+resources/views/livewire/employer/dashboard.blade.php
+  s_9ccdf42cf27ff8::t_ee313783f29af5 113-134
+database/migrations/2026_06_26_135405_add_match_pool_to_companies.php
+  s_9ccdf42cf27ff8::t_303d936faf93dc 15,25
+  s_9ccdf42cf27ff8::t_b5b304eb2363ba 1-14,16-24,26-28
+app/Http/Controllers/Employer/CvDatabaseController.php
+  s_9ccdf42cf27ff8::t_1fd2c2518dbaaf 114,310-314,319-325
+  s_9ccdf42cf27ff8::t_3617b598eed6aa 231-233,235,243-253,258,261
+  s_9ccdf42cf27ff8::t_33ad63ed7c3db7 146-148,150,153-154
+  s_9ccdf42cf27ff8::t_679cf89906df8e 45-47,49,57-58,60,87-107,112-113
+  s_9ccdf42cf27ff8::t_33e3df4110b7bc 275-286,326
+  s_9ccdf42cf27ff8::t_098efa4372abae 115
+  s_9ccdf42cf27ff8::t_93323c89680b55 327
+database/migrations/2026_06_26_112259_add_ai_matching_to_employer_packages.php
+  s_9ccdf42cf27ff8::t_4a2a9a1874a422 1-14,16-24,26-28
+  s_9ccdf42cf27ff8::t_efdc01bf58bdd3 15,25
+app/Models/ApplicantNudge.php
+  s_9ccdf42cf27ff8::t_52f049b8b21ffe 1-4,7,9-11,55
+  s_9ccdf42cf27ff8::t_de9cacc4776d02 5-6,8,12-54
+tests/Feature/Security/SecurityHardeningTest.php
+  s_9ccdf42cf27ff8::t_2674bd6effaf2f 1-66
+resources/views/livewire/employer/job/edit.blade.php
+  s_9ccdf42cf27ff8::t_fd0255e9a81060 32
+app/Livewire/Employer/CvDatabase/ContactCandidate.php
+  s_9ccdf42cf27ff8::t_549b32e9cc0326 5-9,14-55
+  s_9ccdf42cf27ff8::t_b444ba70dd205c 1-4,10-13,56-60
+app/Livewire/Applicant/Dashboard.php
+  s_9ccdf42cf27ff8::t_e788facc5cd072 177-204
+  s_9ccdf42cf27ff8::t_d93adab1eff69e 163
+  s_9ccdf42cf27ff8::t_31c525306b7c23 164-171
+  s_9ccdf42cf27ff8::t_5709cd7cbdcd31 176
+database/factories/CompanyInquiryFactory.php
+  s_9ccdf42cf27ff8::t_9d56738b78189a 1-4,7-22,35-37
+  s_9ccdf42cf27ff8::t_5d2baba91b4799 5-6,23-34
+database/migrations/2026_06_26_135307_add_match_pool_to_cv_match_reports.php
+  s_9ccdf42cf27ff8::t_5a0a60651ef99d 15,30
+  s_9ccdf42cf27ff8::t_34a788f72d46bf 1-14,16,22-29,31-33
+  s_9ccdf42cf27ff8::t_a63f47976c2297 17-21
+database/migrations/2026_06_26_111011_normalize_job_listing_employment_types.php
+  s_9ccdf42cf27ff8::t_bd02f432122272 1-3,5-9,13-16,20-21
+  s_9ccdf42cf27ff8::t_ff0453aae02fcb 4,10-12,17-19
+tests/Feature/Applicant/FollowedCompaniesAndJobPreferencesTest.php
+  s_9ccdf42cf27ff8::t_a8b96affcc23ca 61-62,65-66,73,75-76,79-91
+  s_9ccdf42cf27ff8::t_a5db117c26d661 92
+config/services.php
+  s_9ccdf42cf27ff8::t_77e8a2e46dc33e 61-66
+tests/Feature/WebinarNotificationTest.php
+  s_9ccdf42cf27ff8::t_cfefd01a8b4ccc 1-47
+resources/js/app.js
+  s_9ccdf42cf27ff8::t_9f4bcae2334eed 3-70
+resources/views/livewire/employer/cv-database/contact-candidate.blade.php
+  s_9ccdf42cf27ff8::t_ff01aecf57ef68 2-38
+  s_9ccdf42cf27ff8::t_b444ba70dd205c 1,39
+app/Rules/Honeypot.php
+  s_9ccdf42cf27ff8::t_1700d7e15271c9 1-16
+app/Services/CvMatchService.php
+  s_9ccdf42cf27ff8::t_3d2d4dd0448deb 165,174
+  s_9ccdf42cf27ff8::t_391a59e86ecee2 27
+  s_9ccdf42cf27ff8::t_8f8bae5bc9a580 75
+routes/console.php
+  s_9ccdf42cf27ff8::t_5019f3fbc2322e 34-36
+app/Models/CvMatchReport.php
+  s_9ccdf42cf27ff8::t_25e7600636386d 13
+app/Livewire/Employer/CvDatabase/NudgeApplicant.php
+  s_9ccdf42cf27ff8::t_822fa3f7f7dfca 76
+  s_9ccdf42cf27ff8::t_11c4e48a4b800c 9
+  s_9ccdf42cf27ff8::t_2c06d369b0ab4e 1-4,12-15,80-84
+  s_9ccdf42cf27ff8::t_e122b43291e06b 5-8,10-11,16-74,77-79
+  s_9ccdf42cf27ff8::t_2af507633e7a2a 75
+app/Notifications/EventRegistered.php
+  s_9ccdf42cf27ff8::t_f23acf58bfb853 6,16,23-38
+app/Livewire/Public/ForCompaniesPage.php
+  s_9ccdf42cf27ff8::t_e281622878973b 111
+  s_9ccdf42cf27ff8::t_3dd4c490bd93af 34-35
+  s_9ccdf42cf27ff8::t_811aa7cb442549 150
+app/Notifications/AiMatchProducedNotification.php
+  s_9ccdf42cf27ff8::t_8d1b818726d992 5-7,13,16,18,25,30-31,33-40,47-59,61
+  s_9ccdf42cf27ff8::t_fecbc3932f3980 1-4,8-12,14-15,17,19-24,26-29,32,41-46,60,62-63
+app/Notifications/Concerns/StoredInDatabase.php
+  s_9ccdf42cf27ff8::t_3a31678efb1f15 1-22
+app/Notifications/ApplicantNudgedNotification.php
+  s_9ccdf42cf27ff8::t_16deda5d73cc64 5-6,12,15,17,24,29-46,54-62
+  s_9ccdf42cf27ff8::t_52f049b8b21ffe 1-4,7-11,13-14,16,18-23,25-28,47-53,63-64
+database/migrations/2026_06_26_135405_add_outcome_to_cv_match_results.php
+  s_9ccdf42cf27ff8::t_b5b304eb2363ba 1-14,17-25,27-29
+  s_9ccdf42cf27ff8::t_a08d7aa5eb1d4a 15-16,26
+app/Console/Commands/RunScheduledCvMatching.php
+  s_9ccdf42cf27ff8::t_c19f3356a8527a 1-4,8-11,54,79-80
+  s_9ccdf42cf27ff8::t_0543f7ec8fe1e9 5-7,12-53,55-78
+app/Livewire/Employer/Job/Edit.php
+  s_9ccdf42cf27ff8::t_c41ba44ac4b60d 196
+  s_9ccdf42cf27ff8::t_8b0be6ab4cf224 86
+  s_9ccdf42cf27ff8::t_67ec900ae29d0f 5
+  s_9ccdf42cf27ff8::t_061076608033b0 202-206
+  s_9ccdf42cf27ff8::t_ea39247eceafd2 72
+tests/Feature/Employer/ApplicantNudgeTest.php
+  s_9ccdf42cf27ff8::t_b0eb396a8a5cdc 1-107
+app/Models/Profile.php
+  s_9ccdf42cf27ff8::t_1a8c4c96bb34e7 93-99
+  s_9ccdf42cf27ff8::t_eeb1534ecc1954 41
+  s_9ccdf42cf27ff8::t_a1915b27422966 45-46
+  s_9ccdf42cf27ff8::t_6279a9d1313d77 88-92
+  s_9ccdf42cf27ff8::t_63329994633a58 69-70
+  s_9ccdf42cf27ff8::t_62a0505c44cae6 65
+routes/web.php
+  s_9ccdf42cf27ff8::t_ec1df3973babd4 55
+  s_9ccdf42cf27ff8::t_8c18542b0e1d42 96
+  s_9ccdf42cf27ff8::t_80073f1925a377 12-14
+  s_9ccdf42cf27ff8::t_1d05c40c536bc1 82-85
+  s_9ccdf42cf27ff8::t_eb3542a9623c95 141-143
+resources/views/livewire/public/legal-page.blade.php
+  s_9ccdf42cf27ff8::t_2d7c918129be36 69
+resources/views/employer/cv-database/index.blade.php
+  s_9ccdf42cf27ff8::t_03266a5397a97f 220-246
+  s_9ccdf42cf27ff8::t_797a3ed906099c 261,271-272
+  s_9ccdf42cf27ff8::t_e808dfc6791d70 105-146
+  s_9ccdf42cf27ff8::t_a31d96a58572c5 159-161,163
+  s_9ccdf42cf27ff8::t_1c71f0097d66b4 273-276
+  s_9ccdf42cf27ff8::t_80b7e7b90b50ba 181-194
+app/Models/EmployerPackage.php
+  s_9ccdf42cf27ff8::t_4ff825db10945a 45
+  s_9ccdf42cf27ff8::t_ac0108d24187fc 46
+  s_9ccdf42cf27ff8::t_5d849bef07b90b 27
+  s_9ccdf42cf27ff8::t_9db1de1cb8b6c5 26
+app/Models/User.php
+  s_9ccdf42cf27ff8::t_0f3f4d4ced0441 316-317
+app/Services/JobImportService.php
+  s_9ccdf42cf27ff8::t_a9068a4a782bda 97-98
+database/migrations/2026_06_26_112259_add_featured_until_to_companies.php
+  s_9ccdf42cf27ff8::t_78bd3cd40e8026 15,25
+  s_9ccdf42cf27ff8::t_4a2a9a1874a422 1-14,16-24,26-28
+app/Filament/Resources/Companies/CompanyResource.php
+  s_9ccdf42cf27ff8::t_70170ce44674d3 280-284
+  s_9ccdf42cf27ff8::t_143b4a6c7d16b5 37,53
+app/Models/ContactRequest.php
+  s_9ccdf42cf27ff8::t_a3317a61e82371 5,7,11-48
+  s_9ccdf42cf27ff8::t_f9658dbe694d0f 1-4,6,8-10,49
+database/factories/ApplicantNudgeFactory.php
+  s_9ccdf42cf27ff8::t_211ffd44cc5b0c 1-24
+tests/Feature/Employer/ContactCandidateTest.php
+  s_9ccdf42cf27ff8::t_fe0849263e0ffd 1-123
+app/Livewire/Public/LegalPage.php
+  s_9ccdf42cf27ff8::t_d1f9b246ccd558 115-128
+  s_9ccdf42cf27ff8::t_6f92f631d6f708 110
+  s_9ccdf42cf27ff8::t_5d2e679b49cf14 95-103,112-113
+  s_9ccdf42cf27ff8::t_7b5b205472adc8 30-31
+  s_9ccdf42cf27ff8::t_283a4eee46368a 5,7
+  s_9ccdf42cf27ff8::t_e78499825db8aa 161-173
+  s_9ccdf42cf27ff8::t_c21e9f7c1ed89e 111
+  s_9ccdf42cf27ff8::t_dee4e22118947f 114
+resources/views/livewire/applicant/dashboard.blade.php
+  s_9ccdf42cf27ff8::t_cf9d2c7d741c63 282-302
+  s_9ccdf42cf27ff8::t_c65cbcdd83046e 303-334
+resources/views/public/partials/header.blade.php
+  s_9ccdf42cf27ff8::t_9b41909cbf3667 50-57
+  s_9ccdf42cf27ff8::t_ffe74631d8b4bd 49
+app/Filament/Resources/JobListings/Schemas/JobListingForm.php
+  s_9ccdf42cf27ff8::t_476899b8bbad0a 31,33
+app/Enums/NudgeStatus.php
+  s_9ccdf42cf27ff8::t_48fcd197a75c7b 1-23
+database/migrations/2026_06_26_132608_add_database_direct_contact_to_employer_packages.php
+  s_9ccdf42cf27ff8::t_f9658dbe694d0f 1-14,16-24,26-28
+  s_9ccdf42cf27ff8::t_6f14e6a4b8c1b8 15,25
+app/Filament/Resources/CompanyInquiries/Pages/ListCompanyInquiries.php
+  s_9ccdf42cf27ff8::t_9d56738b78189a 1-19
+app/Models/Company.php
+  s_9ccdf42cf27ff8::t_4040939d7a5cfb 53
+  s_9ccdf42cf27ff8::t_4de16d4a81c8df 54
+  s_9ccdf42cf27ff8::t_c519cfb668c886 269-277,287-299,313-317
+  s_9ccdf42cf27ff8::t_8ca21a5329e136 278-286
+  s_9ccdf42cf27ff8::t_0889d324eca692 78
+resources/views/partials/head.blade.php
+  s_9ccdf42cf27ff8::t_2a4931d464962b 3
+app/Notifications/WaitlistPromoted.php
+  s_9ccdf42cf27ff8::t_126a8290d1deb3 6,16,23-36
+tests/Feature/Employer/ScheduledCvMatchingTest.php
+  s_9ccdf42cf27ff8::t_11ff1a60593aef 1-78
+resources/views/livewire/employer/cv-database/nudge-applicant.blade.php
+  s_9ccdf42cf27ff8::t_a448bc3d5d5d18 2,4-10,26,39-41
+  s_9ccdf42cf27ff8::t_914b3d4a1bc785 3,11-23,25,27-38,42-48
+  s_9ccdf42cf27ff8::t_2c06d369b0ab4e 1,49
+  s_9ccdf42cf27ff8::t_42c01c0eb0ca9b 24
+app/Models/ProfileView.php
+  s_9ccdf42cf27ff8::t_6ac257571f93fa 5,7,11-34
+  s_9ccdf42cf27ff8::t_275abc34b24807 1-4,6,8-10,35
+tests/Feature/Public/FeaturedCompaniesTest.php
+  s_9ccdf42cf27ff8::t_2706d2b0785163 1-37
+database/seeders/CompanyProductSeeder.php
+  s_9ccdf42cf27ff8::t_fc3d2def99d6ca 1-4,6-10,13-15,183-184
+  s_9ccdf42cf27ff8::t_bd056349a03161 5,11-12,16-182
+app/Jobs/ProcessCvMatchForJob.php
+  s_9ccdf42cf27ff8::t_9ee70f4dbbcc37 86-87
+  s_9ccdf42cf27ff8::t_c428f3011b55ec 104-121
+app/Notifications/EventCancelled.php
+  s_9ccdf42cf27ff8::t_827603ecfe2119 6,16,21-32
+  s_9ccdf42cf27ff8::t_00ac0dbf0445fc 36
+  s_9ccdf42cf27ff8::t_0d5ba3bbfd6cac 33
+tests/Feature/Public/ProductsPageTest.php
+  s_9ccdf42cf27ff8::t_738f298fa51c39 1-96
+database/migrations/2026_06_26_111714_create_company_inquiries_table.php
+  s_9ccdf42cf27ff8::t_87bc36ccb87c5a 1-15,31,34-44
+  s_9ccdf42cf27ff8::t_fa4dfa6dbd653a 16-30,32-33
+resources/views/livewire/settings/job-preferences.blade.php
+  s_9ccdf42cf27ff8::t_1b6ed8fd6c8c8e 58-73
+  s_9ccdf42cf27ff8::t_d133b6b16e0142 57
+database/migrations/2026_06_26_111616_normalize_profile_preferred_job_types.php
+  s_9ccdf42cf27ff8::t_056101e71cd2a0 3-4,11,13-26,28-29
+  s_9ccdf42cf27ff8::t_f064df83fbe7ac 1-2,5-10,12,27,30
+app/Enums/EmploymentType.php
+  s_9ccdf42cf27ff8::t_f2a9b1a649ba10 1-48
+app/Livewire/Settings/JobPreferences.php
+  s_9ccdf42cf27ff8::t_012b9dbcc8f378 17-20,23-24
+  s_9ccdf42cf27ff8::t_3316250709c2e4 63-64
+  s_9ccdf42cf27ff8::t_4ef7a1426b2cd3 152-153,162-163
+  s_9ccdf42cf27ff8::t_bfb8cfd17bae1b 173-175
+  s_9ccdf42cf27ff8::t_e4c0dd1c7ebb45 34-35
+resources/css/app.css
+  s_9ccdf42cf27ff8::t_9bdcd90e52ab4b 369-376
+  s_9ccdf42cf27ff8::t_371e316ba6b7f7 421-441
+resources/views/components/shared/⚡notification-center.blade.php
+  s_9ccdf42cf27ff8::t_8f3c3a02f7a6cc 56,58
+  s_9ccdf42cf27ff8::t_297c137e3bb951 25-30,32
+  s_9ccdf42cf27ff8::t_3ce5ac8b8e28bf 81-84
+database/migrations/2026_06_26_115508_create_applicant_nudges_table.php
+  s_9ccdf42cf27ff8::t_dddb23032b8f6e 16-22,24-25
+  s_9ccdf42cf27ff8::t_52f049b8b21ffe 1-15,23,26-36
+database/migrations/2026_06_26_132607_create_contact_requests_table.php
+  s_9ccdf42cf27ff8::t_f9658dbe694d0f 1-15,23,26-36
+  s_9ccdf42cf27ff8::t_772d8fb46e2090 16-22,24-25
+app/Livewire/Employer/Job/Create.php
+  s_9ccdf42cf27ff8::t_c56b514dd6eaaf 103
+  s_9ccdf42cf27ff8::t_4f509f000340d4 123
+  s_9ccdf42cf27ff8::t_57c54bd4c07ece 19
+  s_9ccdf42cf27ff8::t_0b15836d134391 5
+  s_9ccdf42cf27ff8::t_b98bcc2f372748 161
+  s_9ccdf42cf27ff8::t_a7a3708858c262 201
+  s_9ccdf42cf27ff8::t_d3ca776725a5b8 207-211
+app/Notifications/EventReminder.php
+  s_9ccdf42cf27ff8::t_d7aef4430a2f4b 6,16,26-39
+database/factories/ProfileViewFactory.php
+  s_9ccdf42cf27ff8::t_408b018cb8e9e2 1-24
+database/factories/ContactRequestFactory.php
+  s_9ccdf42cf27ff8::t_b11d75d82fd600 1-24
+app/Rules/Turnstile.php
+  s_9ccdf42cf27ff8::t_24e4b50336d657 1-38
+resources/views/livewire/notifications/inbox.blade.php
+  s_9ccdf42cf27ff8::t_fefefdbc4e531d 1-44
+  s_9ccdf42cf27ff8::t_01a2b205aeb592 45
+app/Filament/Resources/CompanyInquiries/Pages/CreateCompanyInquiry.php
+  s_9ccdf42cf27ff8::t_9d56738b78189a 1-11
+app/Models/CompanyInquiry.php
+  s_9ccdf42cf27ff8::t_1c496055afbbb2 5-7,9,13-50
+  s_9ccdf42cf27ff8::t_87bc36ccb87c5a 1-4,8,10-12,51
+resources/views/livewire/employer/job/create.blade.php
+  s_9ccdf42cf27ff8::t_64188d447deb87 119
+tests/Feature/Employer/AiMatchEnhancementsTest.php
+  s_9ccdf42cf27ff8::t_adfc26fa8da9be 1-121
+app/Livewire/Notifications/Inbox.php
+  s_9ccdf42cf27ff8::t_01a2b205aeb592 1-4,7,9-11,31,44,48-49
+  s_9ccdf42cf27ff8::t_ccb22f202efef1 5-6,8,12-30,32-43,45-47
+app/Filament/Resources/CompanyInquiries/CompanyInquiryResource.php
+  s_9ccdf42cf27ff8::t_9d56738b78189a 1-4,7-22,37-63
+  s_9ccdf42cf27ff8::t_4211279ff3ec30 23-36
+  s_9ccdf42cf27ff8::t_0d6eb2deea540c 5-6
+app/Filament/Resources/CompanyInquiries/Schemas/CompanyInquiryForm.php
+  s_9ccdf42cf27ff8::t_9d56738b78189a 1-4,13-20,79-81
+  s_9ccdf42cf27ff8::t_13537afb5d120a 5-8,10-12,21-78
+  s_9ccdf42cf27ff8::t_0d6eb2deea540c 9
+app/Enums/InquiryStatus.php
+  s_9ccdf42cf27ff8::t_daf55d86eeffbb 1-37
+resources/views/livewire/public/for-companies-page.blade.php
+  s_9ccdf42cf27ff8::t_f3c412df0bc620 574
+app/Notifications/WebinarAnnouncedNotification.php
+  s_9ccdf42cf27ff8::t_ab9b5105268909 5-7,13,16-17,19,26,32-37,45-50
+  s_9ccdf42cf27ff8::t_a2a72035005c57 1-4,8-12,14-15,18,20-25,27-31,38-44,51-52
+app/Filament/Resources/Events/Tables/EventsTable.php
+  s_9ccdf42cf27ff8::t_3b9c3b555f0f30 128-131
+app/Filament/Resources/CvMatchReports/RelationManagers/MatchResultsRelationManager.php
+  s_9ccdf42cf27ff8::t_d2449f466bc442 73-77,85-86,97-112
+  s_9ccdf42cf27ff8::t_25ecf804878f3c 5,8
+tests/Feature/Notifications/InboxTest.php
+  s_9ccdf42cf27ff8::t_b792a34421df9d 1-62
+database/seeders/DatabaseSeeder.php
+  s_9ccdf42cf27ff8::t_13b4d0e6bbb649 18
+config/security.php
+  s_9ccdf42cf27ff8::t_a9ca2734292d7c 1-15
+app/Http/Controllers/Employer/TrixAttachmentController.php
+  s_9ccdf42cf27ff8::t_dcfefb382f0e63 1-5,7,11-13,72
+  s_9ccdf42cf27ff8::t_e86b19c9462576 6,9,14-19,21,27-37,40,43,45,47-50,71
+  s_9ccdf42cf27ff8::t_559c307cb3ff7a 8,10,20,22-26,38-39,41-42,44,46,51-70
+database/migrations/2026_06_26_135306_add_segment_to_profiles.php
+  s_9ccdf42cf27ff8::t_59096d1e167462 15,25
+  s_9ccdf42cf27ff8::t_34a788f72d46bf 1-14,16-24,26-28
+database/migrations/2026_06_26_115130_create_profile_views_table.php
+  s_9ccdf42cf27ff8::t_275abc34b24807 1-15,19,22-32
+  s_9ccdf42cf27ff8::t_3862ac054290ca 16-18,20-21
+app/Livewire/Employer/Dashboard.php
+  s_9ccdf42cf27ff8::t_8a91bac9eccb76 70-81,83
+resources/views/components/honeypot.blade.php
+  s_9ccdf42cf27ff8::t_b6a07ac25eb192 1-13
+app/Enums/Industry.php
+  s_9ccdf42cf27ff8::t_ab7b66274d021d 22
+  s_9ccdf42cf27ff8::t_3aeaf5642c44ce 46
+resources/views/layouts/app/sidebar.blade.php
+  s_9ccdf42cf27ff8::t_1289ffc77f08e3 49-52
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "0821e72e7c78fe81fd009e209edf34ea99863543",
+  "prompts": {},
+  "sessions": {
+    "s_9ccdf42cf27ff8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "06d5a31f-0381-4a72-b636-4f034b07a140",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Ketchalegend <kbepa02@gmail.com>"
+    }
+  }
+}
